@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-sort-props */
 import "@/src/styles/globals.css";
 import { Metadata, Viewport } from "next";
 import { Link } from "@heroui/link";
@@ -41,7 +42,7 @@ export default function RootLayout({
           fontSans.variable
         // eslint-disable-next-line prettier/prettier, react/jsx-sort-props
         )} 
-        
+        suppressHydrationWarning 
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <div className="relative flex flex-col h-screen">
