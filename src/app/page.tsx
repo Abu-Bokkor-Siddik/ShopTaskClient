@@ -53,6 +53,7 @@ export default function Home() {
           </div>
         </div>
         {/* end */}
+        <div className="bg-black w-full h-40 mx-8 container"><div></div></div>
       </div>
     </div>
   );
