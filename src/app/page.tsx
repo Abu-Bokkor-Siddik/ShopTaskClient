@@ -1,4 +1,3 @@
-
 import { IoIosArrowDown } from "react-icons/io";
 import { FiPhoneCall } from "react-icons/fi";
 import Image from "next/image";
@@ -40,16 +39,21 @@ export default function Home() {
         </div>
       </div>
       {/* end  */}
-     <div>
-  
-      <div className="relative">
-      <img className="w-screen h-40 mx-8 flex justify-center items-center" src="https://i.ibb.co.com/RkfYBPWN/Green-Fresh-Vegetable-Mobile-Banner-Ad-1.png" alt=""  />
-      <div className="absolute top-16 flex items-center justify-center text-neutral-400 ml-32 gap-1"><IoIosHome /> <IoIosArrowForward />
-     Categories <IoIosArrowForward />
-     <h1>dinamic</h1></div>
+      <div>
+        <div className="relative">
+          <img
+            className="w-screen h-40 mx-8 flex justify-center items-center"
+            src="https://i.ibb.co.com/RkfYBPWN/Green-Fresh-Vegetable-Mobile-Banner-Ad-1.png"
+            alt=""
+          />
+          <div className="absolute top-16 flex items-center justify-center text-neutral-400 ml-32 gap-1">
+            <IoIosHome /> <IoIosArrowForward />
+            Categories <IoIosArrowForward />
+            <h1>dinamic</h1>
+          </div>
+        </div>
+        {/* end */}
       </div>
-      {/* end */}
-     </div>
     </div>
   );
 }
