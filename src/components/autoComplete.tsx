@@ -7,7 +7,7 @@ export default function Auto() {
    <div>
      <div className="flex justify-center items-center ">
       
-      <select defaultValue="eng" className="select bg-neutral-700 select-bordered w-28 text-neutral-300">
+      <select defaultValue="eng" className="select btn-sm bg-neutral-700 select-bordered w-28 text-neutral-300">
         <option disabled selected>
         Select
         </option>
@@ -17,7 +17,7 @@ export default function Auto() {
       
       {/*  */}
      
-      <select defaultValue="eng" className="select bg-neutral-700 select-bordered w-28 text-neutral-300">
+      <select defaultValue="eng" className="select btn-sm bg-neutral-700 select-bordered w-28 text-neutral-300">
         <option disabled selected>
         Select 
         </option>
@@ -25,7 +25,7 @@ export default function Auto() {
         <option>Bangla</option>
       </select>
        <div className="mx-7 text-white">|</div>
-       <button  className="btn btn-neutral mx-3 bg-neutral-700 text-neutral-300">Sign In / Sign Up</button>
+       <button  className="btn-sm btn-neutral mx-3 bg-neutral-700 text-neutral-300">Sign In / Sign Up</button>
     </div>
     {/* <h1>|</h1> */}
    </div>
