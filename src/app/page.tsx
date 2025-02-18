@@ -3,11 +3,12 @@ import { FiPhoneCall } from "react-icons/fi";
 import Image from "next/image";
 import { IoIosHome } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
+import { CiFilter } from "react-icons/ci";
 export default function Home() {
   return (
     <div>
       <div className="w-full h-12 flex justify-between items-center container  mx-5 border p-2">
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-8">
           <div className=" flex items-center gap-1 justify-center">
             <button>Home</button>
             <IoIosArrowDown />
@@ -53,7 +54,7 @@ export default function Home() {
           </div>
         </div>
         {/* end */}
-        <div className="bg-gray-400 w-full h-40 mx-8 container"><div className="bg-black w-96 h-full">hello</div></div>
+        <div className="bg-gray-400 w-full h-40 mx-8 container"><div className="bg-slate-300 w-[400px] h-full"><button className="bg-green-400 px-9 py-2 rounded-2xl">Filter <CiFilter /></button></div></div>
       </div>
     </div>
   );
