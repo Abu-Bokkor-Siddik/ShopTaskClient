@@ -54,7 +54,7 @@ export default function Home() {
           </div>
         </div>
         {/* end */}
-        <div className="bg-gray-400 w-full h-40 mx-8 container"><div className="bg-slate-300 w-[400px] h-full"><button className="bg-green-400 px-9 py-2 rounded-2xl">Filter <CiFilter /></button></div></div>
+        <div className="bg-gray-400 w-full h-40 mx-8 container"><div className="bg-slate-300 w-[400px] h-full"><button className="bg-[#00B206] top-10  px-7 flex justify-center items-center gap-2 py-2 rounded-2xl">Filter <CiFilter /></button></div></div>
       </div>
     </div>
   );
