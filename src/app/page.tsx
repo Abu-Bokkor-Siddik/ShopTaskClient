@@ -60,11 +60,12 @@ export default function Home() {
               Filter <CiFilter />
             </button>
           </div>
-          <div className="flex justify-between items-center">
-            <div>
+          <div className="flex justify-between gap-[730px]">
+            <div className="flex  gap-3 justify-items-center">
+              <h1>Sort by:</h1>
               <select
                 defaultValue="eng"
-                className="select btn-sm bg-neutral-700 select-bordered w-28 text-neutral-300"
+                className="select btn-sm select-bordered w-28 text-neutral-300"
               >
                 <option disabled selected>
                   Select
@@ -74,7 +75,7 @@ export default function Home() {
               </select>
             </div>
             {/* 2nd */}
-            <div></div>
+            <div>Dynammic Result Found </div>
             {/* end */}
           </div>
         </div>
