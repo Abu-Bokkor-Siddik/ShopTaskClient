@@ -60,7 +60,23 @@ export default function Home() {
               Filter <CiFilter />
             </button>
           </div>
-          <div>hello</div>
+          <div className="flex justify-between items-center">
+            <div>
+              <select
+                defaultValue="eng"
+                className="select btn-sm bg-neutral-700 select-bordered w-28 text-neutral-300"
+              >
+                <option disabled selected>
+                  Select
+                </option>
+                <option>Eng</option>
+                <option>Bangla</option>
+              </select>
+            </div>
+            {/* 2nd */}
+            <div></div>
+            {/* end */}
+          </div>
         </div>
       </div>
     </div>
