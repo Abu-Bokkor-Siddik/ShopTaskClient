@@ -19,8 +19,8 @@ export default function BasicAccordion() {
                         </span>
                     </button>
                     <div className={`grid overflow-hidden  transition-all duration-300 ease-in-out ${isOpen === idx ? 'grid-rows-[1fr] pb-1 pt-3 opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
-                    <input type="radio" name="radio-7" className="radio bg-gray-500  " defaultChecked />
-                    <input type="radio" name="radio-7" className="radio bg-gray-500 " />
+                
+                    
                     </div>
                 </div>
             ))}
