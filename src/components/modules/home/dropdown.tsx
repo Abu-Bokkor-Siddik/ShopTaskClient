@@ -19,7 +19,7 @@ export default function BasicAccordion() {
                         </span>
                     </button>
                     <div className={`grid overflow-hidden text-zinc-400 transition-all duration-300 ease-in-out ${isOpen === idx ? 'grid-rows-[1fr] pb-1 pt-3 opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
-                        <div className="overflow-hidden pr-4 text-sm">{PerAccordion.description}</div>
+                    <input type="radio" name="radio-7" className="radio radio-info" defaultChecked />
                     </div>
                 </div>
             ))}
