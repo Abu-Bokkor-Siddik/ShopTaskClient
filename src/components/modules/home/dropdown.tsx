@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-
+import { GoChevronDown, GoChevronUp } from "react-icons/go";
 export default function BasicAccordion() {
   const [isOpen, setIsOpen] = useState(null);
   const dataArr = [{title: "All Category", description: 'To create an account, click on the "Sign Up" button and fill out the required information. Once done, you can enjoy the benefits of being a registered member.',}];
@@ -15,10 +15,7 @@ export default function BasicAccordion() {
                     <button onClick={() => toggle(idx)} className="flex h-full w-full items-center justify-between font-medium text-white outline-none">
                         <span>{PerAccordion.title}</span>
                         <span className="rounded-full p-2">
-                            <svg className="ml-8 size-3 shrink-0 fill-white" xmlns="http://www.w3.org/2000/svg">
-                                <rect y="5" width="12" height="2" rx="1" className={`origin-center transform transition duration-200 ease-out ${isOpen === idx && '!rotate-180'}`} />
-                                <rect y="5" width="12" height="2" rx="1" className={`origin-center rotate-90 transform transition duration-200 ease-out ${isOpen === idx && '!rotate-180'}`} />
-                            </svg>
+                       {isOpen === idx ? <GoChevronUp className="h-10 w-9" />:<GoChevronDown className="h-10 w-9"></GoChevronDown> } 
                         </span>
                     </button>
                     <div className={`grid overflow-hidden text-zinc-400 transition-all duration-300 ease-in-out ${isOpen === idx ? 'grid-rows-[1fr] pb-1 pt-3 opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
