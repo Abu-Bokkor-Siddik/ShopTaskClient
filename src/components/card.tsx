@@ -1,6 +1,6 @@
 import React from "react";
 
-const card = () => {
+const Card = () => {
   return (
     <div className="card bg-base-100 w-96 shadow-xl">
       <figure>
@@ -24,4 +24,4 @@ const card = () => {
   );
 };
 
-export default card;
+export default Card;

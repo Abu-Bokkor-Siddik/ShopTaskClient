@@ -6,6 +6,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { CiFilter } from "react-icons/ci";
 import BasicAccordion from "../components/modules/home/dropdown";
 import RadioButton from "../components/radioButton";
+import Card from "../components/card";
 export default function Home() {
   return (
     <div>
@@ -83,9 +84,15 @@ export default function Home() {
             {/* 2nd */}
             <div>Dynammic Result Found </div>
             {/* end */}
+            
           </div>
+         
+
+          
         </div>
+        <Card></Card>
       </div>
+      
     </div>
   );
 }
