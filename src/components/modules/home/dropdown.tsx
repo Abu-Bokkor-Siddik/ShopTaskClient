@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { GoChevronDown, GoChevronUp } from "react-icons/go";
+import RadioButton from "../../radioButton";
 export default function BasicAccordion() {
   const [isOpen, setIsOpen] = useState(null);
   const dataArr = [{title: "All Category", description: 'To create an account, click on the "Sign Up" button and fill out the required information. Once done, you can enjoy the benefits of being a registered member.',}];
@@ -20,7 +21,7 @@ export default function BasicAccordion() {
                     </button>
                     <div className={`grid overflow-hidden  transition-all duration-300 ease-in-out ${isOpen === idx ? 'grid-rows-[1fr] pb-1 pt-3 opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
                 
-                    
+                    <RadioButton></RadioButton>
                     </div>
                 </div>
             ))}

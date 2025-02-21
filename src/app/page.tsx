@@ -5,6 +5,7 @@ import { IoIosHome } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { CiFilter } from "react-icons/ci";
 import BasicAccordion from "../components/modules/home/dropdown";
+import RadioButton from "../components/radioButton";
 export default function Home() {
   return (
     <div>
@@ -60,9 +61,10 @@ export default function Home() {
             <button className="bg-[#00B206] ml-28   px-7 flex justify-center items-center gap-2 py-2 rounded-2xl">
               Filter <CiFilter />
             </button>
-
+              
             {/* here  */}
             <BasicAccordion></BasicAccordion>
+           
           </div>
           <div className="flex justify-between gap-[730px]">
             <div className="flex  gap-3 justify-items-center">
