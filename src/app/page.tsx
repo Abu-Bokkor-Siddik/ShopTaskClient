@@ -85,7 +85,9 @@ export default function Home() {
                 </select>
               </div>
 
-              <div className="text-4xl text-red-700">Dynammic Result Found </div>
+              <div className="text-4xl text-red-700">
+                Dynammic Result Found{" "}
+              </div>
             </div>
 
             {/* start */}
