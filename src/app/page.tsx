@@ -57,8 +57,10 @@ export default function Home() {
           </div>
         </div>
         {/* end */}
-        <div className="bg-gray-400 pt-7 flex w-full h-40 mx-8 container">
-          <div className="bg-slate-300 w-[400px] h-full">
+        <div className="bg-red-400 pt-7 flex w-full h-40 mx-8 container">
+         <div>
+          {/* st */}
+          <div className="bg-slate-600 w-[400px] h-full">
             <button className="bg-[#00B206] ml-28   px-7 flex justify-center items-center gap-2 py-2 rounded-2xl">
               Filter <CiFilter />
             </button>
@@ -66,7 +68,9 @@ export default function Home() {
             {/* here  */}
             <BasicAccordion></BasicAccordion>
           </div>
-          <div className="flex justify-between gap-[730px]">
+
+         </div>
+          <div className="flex h-[1400px] justify-between gap-[730px]">
             <div className="flex  gap-3 justify-items-center">
               <h1>Sort by:</h1>
               <select
@@ -85,7 +89,7 @@ export default function Home() {
             {/* end */}
           </div>
         </div>
-        <Card></Card>
+      
       </div>
     </div>
   );
