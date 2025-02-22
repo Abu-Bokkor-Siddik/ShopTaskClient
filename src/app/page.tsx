@@ -70,8 +70,9 @@ export default function Home() {
           </div>
 
          </div>
-          <div className="flex h-[1400px] justify-between gap-[730px]">
-            <div className="flex  gap-3 justify-items-center">
+          <div className="flex h-[1400px] bg-stone-600 ">
+           <div className="h-[1400px] flex justify-between gap-[730px]">
+           <div className="flex   gap-3 justify-items-center">
               <h1>Sort by:</h1>
               <select
                 defaultValue="eng"
@@ -84,10 +85,14 @@ export default function Home() {
                 <option>Bangla</option>
               </select>
             </div>
+           </div>
             {/* 2nd */}
             <div>Dynammic Result Found </div>
             {/* end */}
+            
           </div>
+
+          
         </div>
       
       </div>
