@@ -69,21 +69,26 @@ export default function Home() {
               <BasicAccordion></BasicAccordion>
             </div>
           </div>
-          <div className="h-[1400px] bg-stone-600 ">
-            <div className="flex   gap-3 justify-items-center">
-              <h1>Sort by:</h1>
-              <select
-                defaultValue="eng"
-                className="select btn-sm select-bordered w-28 text-neutral-300"
-              >
-                <option disabled selected>
-                  Select
-                </option>
-                <option>Eng</option>
-                <option>Bangla</option>
-              </select>
+          <div className="h-[1400px] min-w-[1135px] bg-stone-600 ">
+            <div className="flex justify-between  items-center  ">
+              <div className="flex justify-between items-center ">
+                <h1>Sort by:</h1>
+                <select
+                  defaultValue="eng"
+                  className="select btn-sm select-bordered w-28 text-neutral-300"
+                >
+                  <option disabled selected>
+                    Select
+                  </option>
+                  <option>Eng</option>
+                  <option>Bangla</option>
+                </select>
+              </div>
+
+              <div className="text-4xl text-red-700">Dynammic Result Found </div>
             </div>
-            {/* 2nd */}
+
+            {/* start */}
 
             {/* end */}
           </div>
