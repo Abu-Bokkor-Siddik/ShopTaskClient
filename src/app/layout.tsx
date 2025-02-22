@@ -12,7 +12,6 @@ import { fontSans } from "@/src/config/fonts";
 import { Navbar } from "@/src/components/navbar";
 import Uper from "../components/uper";
 
-
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
@@ -43,17 +42,15 @@ export default function RootLayout({
         className={clsx(
           "min-h-screen bg-background font-sans antialiased",
           fontSans.variable
-        // eslint-disable-next-line prettier/prettier, react/jsx-sort-props
-        )} 
-        suppressHydrationWarning 
+          // eslint-disable-next-line prettier/prettier, react/jsx-sort-props
+        )}
+        suppressHydrationWarning
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <div className="relative flex flex-col h-screen">
-            <Uper/>
+            <Uper />
             <Navbar />
-            <main className="container flex-grow">
-              {children}
-            </main>
+            <main className="container flex-grow">{children}</main>
             <footer className="w-full flex items-center justify-center py-3">
               <Link
                 isExternal
