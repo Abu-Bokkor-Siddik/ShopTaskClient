@@ -89,7 +89,7 @@ export default function Home() {
             </div>
 
             {/* start */}
-
+            <Card></Card>
             {/* end */}
           </div>
         </div>
