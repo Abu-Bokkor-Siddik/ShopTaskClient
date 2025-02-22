@@ -58,21 +58,19 @@ export default function Home() {
         </div>
         {/* end */}
         <div className="bg-red-400 pt-7 flex w-full h-40 mx-8 container">
-         <div>
-          {/* st */}
-          <div className="bg-slate-600 w-[400px] h-full">
-            <button className="bg-[#00B206] ml-28   px-7 flex justify-center items-center gap-2 py-2 rounded-2xl">
-              Filter <CiFilter />
-            </button>
+          <div>
+            {/* st */}
+            <div className="bg-slate-600 w-[400px] h-full">
+              <button className="bg-[#00B206] ml-28   px-7 flex justify-center items-center gap-2 py-2 rounded-2xl">
+                Filter <CiFilter />
+              </button>
 
-            {/* here  */}
-            <BasicAccordion></BasicAccordion>
+              {/* here  */}
+              <BasicAccordion></BasicAccordion>
+            </div>
           </div>
-
-         </div>
-          <div className="flex h-[1400px] bg-stone-600 ">
-           <div className="h-[1400px] flex justify-between gap-[730px]">
-           <div className="flex   gap-3 justify-items-center">
+          <div className="h-[1400px] bg-stone-600 ">
+            <div className="flex   gap-3 justify-items-center">
               <h1>Sort by:</h1>
               <select
                 defaultValue="eng"
@@ -85,16 +83,11 @@ export default function Home() {
                 <option>Bangla</option>
               </select>
             </div>
-           </div>
             {/* 2nd */}
-            <div>Dynammic Result Found </div>
-            {/* end */}
-            
-          </div>
 
-          
+            {/* end */}
+          </div>
         </div>
-      
       </div>
     </div>
   );
