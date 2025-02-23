@@ -1,5 +1,5 @@
 import React from "react";
-import { CiStar } from "react-icons/ci";
+import { FaStar } from "react-icons/fa";
 const Card = () => {
   return (
     <div className="card bg-base-100 w-72 h-96 shadow-xl">
@@ -19,7 +19,7 @@ const Card = () => {
         </h2>
         <p>Price</p>
         <p>
-        <CiStar />
+        <FaStar />
         </p>
         <div className="card-actions justify-end">
           <div className="badge badge-outline">Fashion</div>
