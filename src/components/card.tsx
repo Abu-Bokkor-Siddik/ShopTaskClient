@@ -17,17 +17,18 @@ const Card = () => {
          Name items
           <div className="badge badge-secondary">NEW</div>
         </h2>
+        <div className="flex justify-between items-center">
+        <div >
         <p>Price</p>
-        <p>
+        <p className="flex gap-1 items-center">
         <FaStar className="text-yellow-500" />
         <FaStar className="text-yellow-500" />
         <FaStar className="text-yellow-500" />
         <FaStar className="text-yellow-500" />
         <FaStar className="text-yellow-500" />
         </p>
-        <div className="card-actions justify-end">
-          <div className="badge badge-outline">Fashion</div>
-          <div className="badge badge-outline">Products</div>
+        </div>
+        <button>click</button>
         </div>
       </div>
     </div>
