@@ -1,5 +1,5 @@
 import React from "react";
-
+import { CiStar } from "react-icons/ci";
 const Card = () => {
   return (
     <div className="card bg-base-100 w-72 h-96 shadow-xl">
