@@ -19,7 +19,11 @@ const Card = () => {
         </h2>
         <p>Price</p>
         <p>
-        <FaStar />
+        <FaStar className="text-yellow-500" />
+        <FaStar className="text-yellow-500" />
+        <FaStar className="text-yellow-500" />
+        <FaStar className="text-yellow-500" />
+        <FaStar className="text-yellow-500" />
         </p>
         <div className="card-actions justify-end">
           <div className="badge badge-outline">Fashion</div>
