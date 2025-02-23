@@ -4,7 +4,9 @@ const Card = () => {
   return (
     <div className="card bg-base-100 w-72 h-96 shadow-xl">
       <figure>
+        
         <img
+        className="h-60"
           src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
           alt="Shoes"
         />
@@ -12,10 +14,13 @@ const Card = () => {
 
       <div className="card-body">
         <h2 className="card-title">
-          Shoes!
+         Name items
           <div className="badge badge-secondary">NEW</div>
         </h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <p>Price</p>
+        <p>
+        <CiStar />
+        </p>
         <div className="card-actions justify-end">
           <div className="badge badge-outline">Fashion</div>
           <div className="badge badge-outline">Products</div>
