@@ -91,14 +91,14 @@ export default function Home() {
             </div>
 
             {/* start */}
-           <div className="grid grid-cols-3 justify-center items-center gap-2">
-           <Card></Card>
-            <Card></Card>
-            <Card></Card>
-            <Card></Card>
-            <Card></Card>
-            <Card></Card>
-           </div>
+            <div className="grid grid-cols-3 justify-center items-center gap-2">
+              <Card></Card>
+              <Card></Card>
+              <Card></Card>
+              <Card></Card>
+              <Card></Card>
+              <Card></Card>
+            </div>
             {/* end */}
           </div>
         </div>
