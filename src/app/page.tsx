@@ -91,12 +91,14 @@ export default function Home() {
             </div>
 
             {/* start */}
+           <div className="flex ">
+           <Card></Card>
             <Card></Card>
             <Card></Card>
             <Card></Card>
             <Card></Card>
             <Card></Card>
-            <Card></Card>
+           </div>
             {/* end */}
           </div>
         </div>
