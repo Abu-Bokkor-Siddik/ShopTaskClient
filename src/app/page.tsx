@@ -93,6 +93,7 @@ export default function Home() {
             {/* start */}
             <Card></Card>
             <Card></Card>
+            <Card></Card>
             {/* end */}
           </div>
         </div>
