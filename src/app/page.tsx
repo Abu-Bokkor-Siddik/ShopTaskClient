@@ -91,7 +91,7 @@ export default function Home() {
             </div>
 
             {/* start */}
-           <div className="flex ">
+           <div className="grid grid-cols-3 justify-center items-center gap-2">
            <Card></Card>
             <Card></Card>
             <Card></Card>
