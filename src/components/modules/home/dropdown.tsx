@@ -19,6 +19,8 @@ export default function BasicAccordion() {
     <div className="w-full max-w-[500px] rounded-lg bg-white p-3 *:mix-blend-difference dark:bg-zinc-800">
       {dataArr.map((PerAccordion, idx) => (
         <div
+
+        
           key={idx}
           className="border-b border-gray-500/50 py-3 last-of-type:border-b-0"
         >
