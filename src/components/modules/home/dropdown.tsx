@@ -38,9 +38,9 @@ export default function BasicAccordion() {
             </span>
           </button>
           <div
-            className={`grid overflow-hidden  transition-all duration-300 ease-in-out ${isOpen === idx ? "grid-rows-[1fr] pb-1 pt-3 opacity-100" : "grid-rows-[0fr] opacity-0"}`}
+            className={`grid text-black overflow-hidden  transition-all duration-300 ease-in-out ${isOpen === idx ? "grid-rows-[1fr] pb-1 pt-3 opacity-100" : "grid-rows-[0fr] opacity-0"}`}
           >
-            <RadioButton></RadioButton>
+            <RadioButton ></RadioButton>
           </div>
         </div>
       ))}
