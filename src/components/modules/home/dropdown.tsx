@@ -16,13 +16,13 @@ export default function BasicAccordion() {
   };
 
   return (
-    <div className="w-full max-w-[500px] rounded-lg bg-white p-3 *:mix-blend-difference dark:bg-zinc-800">
+    <div className="w-full max-w-[500px] rounded-lg bg-slate-600 p-3 ">
       {dataArr.map((PerAccordion, idx) => (
         <div
 
         
           key={idx}
-          className="border-b border-gray-500/50 py-3 last-of-type:border-b-0"
+          className=""
         >
           <button
             onClick={() => toggle(idx)}
@@ -38,11 +38,14 @@ export default function BasicAccordion() {
             </span>
           </button>
           <div
-            className={`grid text-black overflow-hidden  transition-all duration-300 ease-in-out ${isOpen === idx ? "grid-rows-[1fr] pb-1 pt-3 opacity-100" : "grid-rows-[0fr] opacity-0"}`}
+            className={`grid items-center text-black overflow-hidden  transition-all duration-300 ease-in-out ${isOpen === idx ? "grid-rows-[1fr] pb-1 pt-3 opacity-100" : "grid-rows-[0fr] opacity-0"}`}
           >
+            <div className="flex items-center gap-2">
             <RadioButton ></RadioButton>
-            
+            <h1 className="text-white">text</h1>
+            </div>
           </div>
+          
         </div>
       ))}
     </div>
