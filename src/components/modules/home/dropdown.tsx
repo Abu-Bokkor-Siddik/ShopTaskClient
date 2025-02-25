@@ -18,12 +18,7 @@ export default function BasicAccordion() {
   return (
     <div className="w-full max-w-[500px] rounded-lg bg-slate-600 p-3 ">
       {dataArr.map((PerAccordion, idx) => (
-        <div
-
-        
-          key={idx}
-          className=""
-        >
+        <div key={idx} className="">
           <button
             onClick={() => toggle(idx)}
             className="flex h-full w-full items-center justify-between font-medium text-white outline-none"
@@ -41,11 +36,10 @@ export default function BasicAccordion() {
             className={`grid items-center text-black overflow-hidden  transition-all duration-300 ease-in-out ${isOpen === idx ? "grid-rows-[1fr] pb-1 pt-3 opacity-100" : "grid-rows-[0fr] opacity-0"}`}
           >
             <div className="flex items-center gap-2">
-            <RadioButton ></RadioButton>
-            <h1 className="text-white">text</h1>
+              <RadioButton></RadioButton>
+              <h1 className="text-white">text</h1>
             </div>
           </div>
-          
         </div>
       ))}
     </div>
