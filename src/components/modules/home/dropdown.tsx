@@ -44,14 +44,7 @@ export default function BasicAccordion() {
               <RadioButton></RadioButton>
               <h1 className="text-white">text</h1>
             </div>
-            <div className="flex items-center gap-2">
-              <RadioButton></RadioButton>
-              <h1 className="text-white">text</h1>
-            </div>
-            <div className="flex items-center gap-2">
-              <RadioButton></RadioButton>
-              <h1 className="text-white">text</h1>
-            </div>
+            
           </div>
         </div>
       ))}
