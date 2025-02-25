@@ -32,6 +32,10 @@ export default function BasicAccordion() {
               )}
             </span>
           </button>
+
+
+
+          
           <div
             className={`grid items-center text-black overflow-hidden  transition-all duration-300 ease-in-out ${isOpen === idx ? "grid-rows-[1fr] pb-1 pt-3 opacity-100" : "grid-rows-[0fr] opacity-0"}`}
           >
