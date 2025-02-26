@@ -34,7 +34,7 @@ export default function BasicAccordion() {
           </button>
 
           <div
-            className={`grid ml-28 -mt-1 items-center text-black overflow-hidden  transition-all duration-300 ease-in-out ${isOpen === idx ? "grid-rows-[1fr] pb-1 pt-3 opacity-100" : "grid-rows-[0fr] opacity-0"}`}
+            className={`grid ml-28 -mt-3 items-center text-black overflow-hidden  transition-all duration-300 ease-in-out ${isOpen === idx ? "grid-rows-[1fr] pb-1 pt-3 opacity-100" : "grid-rows-[0fr] opacity-0"}`}
           >
             <div className="flex my-2  items-center gap-2">
               <RadioButton></RadioButton>
