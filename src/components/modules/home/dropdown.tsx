@@ -23,7 +23,7 @@ export default function BasicAccordion() {
             onClick={() => toggle(idx)}
             className="flex h-full w-full items-center justify-between font-medium text-white outline-none"
           >
-            <span>{PerAccordion.title}</span>
+            <span className="text-xl ml-24">{PerAccordion.title}</span>
             <span className="rounded-full p-2">
               {isOpen === idx ? (
                 <GoChevronUp className="h-10 w-9" />
