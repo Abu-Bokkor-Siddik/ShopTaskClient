@@ -69,6 +69,7 @@ export default function Home() {
               <BasicAccordion></BasicAccordion>
               <BasicAccordion></BasicAccordion>
               <BasicAccordion></BasicAccordion>
+              <BasicAccordion></BasicAccordion>
             </div>
           </div>
           <div className="h-[1400px] min-w-[1135px] bg-stone-600 ">
