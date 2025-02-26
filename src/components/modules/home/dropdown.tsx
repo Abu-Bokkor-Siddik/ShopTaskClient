@@ -16,7 +16,7 @@ export default function BasicAccordion() {
   };
 
   return (
-    <div className="w-full max-w-auto rounded-lg bg-slate-600 p-3 ">
+    <div className="w-auto h-auto max-w-auto rounded-lg bg-zinc-400 p-3 ">
       {dataArr.map((PerAccordion, idx) => (
         <div key={idx} className="">
           <button
