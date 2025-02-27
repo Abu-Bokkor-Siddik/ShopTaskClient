@@ -6,6 +6,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { CiFilter } from "react-icons/ci";
 import BasicAccordion from "../components/modules/home/Accordion";
 import Card from "../components/card";
+import TwoSection from "../components/modules/home/SiteT/TwoSection";
 export default function Home() {
   return (
     <div>
@@ -66,7 +67,7 @@ export default function Home() {
 
               {/* here  */}
               <BasicAccordion></BasicAccordion>
-              <BasicAccordion></BasicAccordion>
+              <TwoSection></TwoSection>
               <BasicAccordion></BasicAccordion>
               <BasicAccordion></BasicAccordion>
             </div>

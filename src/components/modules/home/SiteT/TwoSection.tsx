@@ -15,7 +15,6 @@ export default function TwoSection() {
     setIsOpen((prevIdx) => (prevIdx === idx ? null : idx));
   };
 
- 
   return (
     <div className=" h-auto max-w-[400px] rounded-lg bg-zinc-400 p-3 ">
       {dataArr.map((PerAccordion, idx) => (
@@ -37,49 +36,10 @@ export default function TwoSection() {
           <div
             className={`grid ml-28 -mt-3 items-center text-black overflow-hidden  transition-all duration-300 ease-in-out ${isOpen === idx ? "grid-rows-[1fr] pb-1 pt-3 opacity-100" : "grid-rows-[0fr] opacity-0"}`}
           >
-            <div className="flex my-2  items-center gap-2">
-            <div className="flex items-center ">
-      <input type="radio" name="radio-1" className="radio" defaultChecked />
-    </div>
-              <h1 className="text-white">Fresh Foods</h1>
-            </div>
-            <div className="flex my-2  items-center gap-2">
-            <div className="flex items-center ">
-      <input type="radio" name="radio-1" className="radio" defaultChecked />
-    </div>
-              <h1 className="text-white">Vegetable</h1>
-            </div>
-            <div className="flex my-2  items-center gap-2">
-              <div className="flex items-center ">
-      <input type="radio" name="radio-1" className="radio" defaultChecked />
-    </div>
-              <h1 className="text-white">Cooking</h1>
-            </div>
-            <div className="flex my-2  items-center gap-2">
-              <div className="flex items-center ">
-      <input type="radio" name="radio-1" className="radio" defaultChecked />
-    </div>
-              <h1 className="text-white">Snacks</h1>
-            </div>
-            <div className="flex my-2  items-center gap-2">
-              <div className="flex items-center ">
-      <input type="radio" name="radio-1" className="radio" defaultChecked />
-    </div>
-              <h1 className="text-white">Beverages</h1>
-            </div>
-            <div className="flex my-2  items-center gap-2">
-              <div className="flex items-center ">
-      <input type="radio" name="radio-1" className="radio" defaultChecked />
-    </div>
-              <h1 className="text-white">Beauty</h1>
-            </div>
-            <div className="flex my-2  items-center gap-2">
-              <div className="flex items-center ">
-      <input type="radio" name="radio-1" className="radio" defaultChecked />
-    </div>
-              <h1 className="text-white">Bread</h1>
-            </div>
-          <hr />
+        {/* rang input */}
+        <div>
+            <input type="range" name="" id="" />
+        </div>
           </div>
         </div>
       ))}
