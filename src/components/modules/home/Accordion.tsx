@@ -15,6 +15,36 @@ export default function BasicAccordion() {
     setIsOpen((prevIdx) => (prevIdx === idx ? null : idx));
   };
 
+  const dataFake = [
+    {
+      title1: "",
+      text: "",
+    },
+    {
+      title1: "",
+      text: "",
+    },
+    {
+      title1: "",
+      text: "",
+    },
+    {
+      title1: "",
+      text: "",
+    },
+    {
+      title1: "",
+      text: "",
+    },
+    {
+      title1: "",
+      text: "",
+    },
+    {
+      title1: "",
+      text: "",
+    },
+  ];
   return (
     <div className=" h-auto max-w-[400px] rounded-lg bg-zinc-400 p-3 ">
       {dataArr.map((PerAccordion, idx) => (
@@ -38,37 +68,33 @@ export default function BasicAccordion() {
           >
             <div className="flex my-2  items-center gap-2">
               <RadioButton></RadioButton>
-              <h1 className="text-white">text</h1>
+              <h1 className="text-white">Fresh Foods</h1>
             </div>
             <div className="flex my-2  items-center gap-2">
               <RadioButton></RadioButton>
-              <h1 className="text-white">text</h1>
+              <h1 className="text-white">Vegetable</h1>
             </div>
             <div className="flex my-2  items-center gap-2">
               <RadioButton></RadioButton>
-              <h1 className="text-white">text</h1>
+              <h1 className="text-white">Cooking</h1>
             </div>
             <div className="flex my-2  items-center gap-2">
               <RadioButton></RadioButton>
-              <h1 className="text-white">text</h1>
+              <h1 className="text-white">Snacks</h1>
             </div>
             <div className="flex my-2  items-center gap-2">
               <RadioButton></RadioButton>
-              <h1 className="text-white">text</h1>
+              <h1 className="text-white">Beverages</h1>
             </div>
             <div className="flex my-2  items-center gap-2">
               <RadioButton></RadioButton>
-              <h1 className="text-white">text</h1>
+              <h1 className="text-white">Beauty</h1>
             </div>
             <div className="flex my-2  items-center gap-2">
               <RadioButton></RadioButton>
-              <h1 className="text-white">text</h1>
+              <h1 className="text-white">Bread</h1>
             </div>
-            <div className="flex my-2  items-center gap-2">
-              <RadioButton></RadioButton>
-              <h1 className="text-white">text</h1>
-            </div>
-            
+          <hr />
           </div>
         </div>
       ))}
