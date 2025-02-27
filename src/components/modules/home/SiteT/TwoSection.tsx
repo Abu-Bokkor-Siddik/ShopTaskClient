@@ -1,4 +1,5 @@
 "use client";
+import { Button } from "@heroui/button";
 import { useState } from "react";
 import { GoChevronDown, GoChevronUp } from "react-icons/go";
 
@@ -14,7 +15,16 @@ export default function TwoSection() {
   const toggle = (idx) => {
     setIsOpen((prevIdx) => (prevIdx === idx ? null : idx));
   };
+// value 
+const [value, setValue] = useState(50);
 
+const handleIncrease = () => {
+  if (value < 100) setValue(value + 1);
+};
+
+const handleDecrease = () => {
+  if (value > 0) setValue(value - 1);
+};
   return (
     <div className=" h-auto max-w-[400px] rounded-lg bg-zinc-400 p-3 ">
       {dataArr.map((PerAccordion, idx) => (
@@ -36,10 +46,24 @@ export default function TwoSection() {
           <div
             className={`grid ml-28 -mt-3 items-center text-black overflow-hidden  transition-all duration-300 ease-in-out ${isOpen === idx ? "grid-rows-[1fr] pb-1 pt-3 opacity-100" : "grid-rows-[0fr] opacity-0"}`}
           >
-        {/* rang input */}
-        <div>
-            <input type="range" name="" id="" />
-        </div>
+            {/* rang input */}
+            <div>
+              {/* st */}
+              <div className="flex items-center space-x-4">
+                <button onClick={handleDecrease}>-</button>
+                <input
+                  type="range"
+                  min="50"
+                  max="1500"
+                  value={value}
+                  onChange={(e) => setValue(Number(e.target.value))}
+                  className="w-auto"
+                />
+                <button onClick={handleIncrease}>+</button>
+                <span>{value}</span>
+              </div>
+              {/* end */}
+            </div>
           </div>
         </div>
       ))}
