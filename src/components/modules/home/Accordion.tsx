@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { GoChevronDown, GoChevronUp } from "react-icons/go";
-import RadioButton from "../../radioButton";
+import RadioButton from "./radioButton";
 export default function BasicAccordion() {
   const [isOpen, setIsOpen] = useState(null);
   const dataArr = [
