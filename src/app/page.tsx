@@ -4,8 +4,7 @@ import Image from "next/image";
 import { IoIosHome } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { CiFilter } from "react-icons/ci";
-import BasicAccordion from "../components/modules/home/dropdown";
-import RadioButton from "../components/radioButton";
+import BasicAccordion from "../components/modules/home/Accordion";
 import Card from "../components/card";
 export default function Home() {
   return (
