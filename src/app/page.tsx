@@ -7,6 +7,7 @@ import { CiFilter } from "react-icons/ci";
 import BasicAccordion from "../components/modules/home/Accordion";
 import Card from "../components/card";
 import TwoSection from "../components/modules/home/SiteT/TwoSection";
+import ThreeSection from "../components/modules/home/SiteT/ThreeSection";
 export default function Home() {
   return (
     <div>
@@ -68,7 +69,7 @@ export default function Home() {
               {/* here  */}
               <BasicAccordion></BasicAccordion>
               <TwoSection></TwoSection>
-              <BasicAccordion></BasicAccordion>
+              <ThreeSection></ThreeSection>
               <BasicAccordion></BasicAccordion>
             </div>
           </div>
