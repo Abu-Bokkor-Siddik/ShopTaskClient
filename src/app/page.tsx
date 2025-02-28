@@ -8,6 +8,7 @@ import BasicAccordion from "../components/modules/home/Accordion";
 import Card from "../components/card";
 import TwoSection from "../components/modules/home/SiteT/TwoSection";
 import ThreeSection from "../components/modules/home/SiteT/ThreeSection";
+import FourSection from "../components/modules/home/SiteT/FourSection";
 export default function Home() {
   return (
     <div>
@@ -70,7 +71,7 @@ export default function Home() {
               <BasicAccordion></BasicAccordion>
               <TwoSection></TwoSection>
               <ThreeSection></ThreeSection>
-              <BasicAccordion></BasicAccordion>
+              <FourSection></FourSection>
             </div>
           </div>
           <div className="h-[1400px] min-w-[1135px] bg-stone-600 ">

@@ -1,11 +1,9 @@
 "use client";
-
 import { useState } from "react";
-import { FaStar } from "react-icons/fa";
 import { GoChevronDown, GoChevronUp } from "react-icons/go";
 import Rating from "./Rating";
 
-export default function ThreeSection() {
+export default function FourSection() {
   const [isOpen, setIsOpen] = useState(null);
   const dataArr = [
     {
@@ -38,16 +36,20 @@ export default function ThreeSection() {
           </button>
 
           <div
-            className={`grid ml-28 -mt-3 items-center text-black overflow-hidden  transition-all duration-300 ease-in-out ${isOpen === idx ? "grid-rows-[1fr] pb-1 pt-3 opacity-100" : "grid-rows-[0fr] opacity-0"}`}
+            className={`grid ml-20 -mt-3 items-center text-black overflow-hidden  transition-all duration-300 ease-in-out ${isOpen === idx ? "grid-rows-[1fr] pb-1 pt-3 opacity-100" : "grid-rows-[0fr] opacity-0"}`}
           >
             {/* rang input */}
             {/* st call another component */}
-            <div className="flex flex-col gap-2">
-            <Rating />
-            <Rating />
-            <Rating />
-            <Rating />
-            <Rating />
+            <div className="grid grid-cols-3 gap-2">
+              <button className="btn btn-sm rounded-full btn-outline btn-success">Success</button>
+              <button className="btn btn-sm rounded-full btn-outline btn-success">Success</button>
+              <button className="btn btn-sm rounded-full btn-outline btn-success">Success</button>
+              <button className="btn btn-sm rounded-full btn-outline btn-success">Success</button>
+              <button className="btn btn-sm rounded-full btn-outline btn-success">Success</button>
+              <button className="btn btn-sm rounded-full btn-outline btn-success">Success</button>
+              <button className="btn btn-sm rounded-full btn-outline btn-success">Success</button>
+              <button className="btn btn-sm rounded-full btn-outline btn-success">Success</button>
+              <button className="btn btn-sm rounded-full btn-outline btn-success">Success</button>
             </div>
           </div>
         </div>
