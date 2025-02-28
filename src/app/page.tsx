@@ -9,6 +9,7 @@ import Card from "../components/card";
 import TwoSection from "../components/modules/home/SiteT/TwoSection";
 import ThreeSection from "../components/modules/home/SiteT/ThreeSection";
 import FourSection from "../components/modules/home/SiteT/FourSection";
+import OfferCard from "../components/modules/home/SiteT/OfferCard";
 export default function Home() {
   return (
     <div>
@@ -72,6 +73,7 @@ export default function Home() {
               <TwoSection></TwoSection>
               <ThreeSection></ThreeSection>
               <FourSection></FourSection>
+              <OfferCard></OfferCard>
             </div>
           </div>
           <div className="h-[1400px] min-w-[1135px] bg-stone-600 ">
