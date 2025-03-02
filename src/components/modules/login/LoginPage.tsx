@@ -56,7 +56,7 @@ const LoginPage = () => {
             </div>
             <p>
               If you have no account{" "}
-              <Link className="text-blue-800" href="/register">
+              <Link className="text-blue-800" href="/sign">
                 Go Register
               </Link>
             </p>
