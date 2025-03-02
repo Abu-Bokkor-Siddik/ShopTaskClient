@@ -10,6 +10,7 @@ import TwoSection from "../components/modules/home/SiteT/TwoSection";
 import ThreeSection from "../components/modules/home/SiteT/ThreeSection";
 import FourSection from "../components/modules/home/SiteT/FourSection";
 import OfferCard from "../components/modules/home/SiteT/OfferCard";
+import SaleCard from "../components/modules/home/SiteT/SaleCard";
 export default function Home() {
   return (
     <div>
@@ -74,6 +75,9 @@ export default function Home() {
               <ThreeSection></ThreeSection>
               <FourSection></FourSection>
               <OfferCard></OfferCard>
+              <p className="text-2xl ">Sales Products</p>
+              <SaleCard></SaleCard>
+              <SaleCard></SaleCard>
             </div>
           </div>
           <div className="h-[1400px] min-w-[1135px] bg-stone-600 ">
