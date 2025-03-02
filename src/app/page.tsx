@@ -76,8 +76,11 @@ export default function Home() {
               <FourSection></FourSection>
               <OfferCard></OfferCard>
               <p className="text-2xl ">Sales Products</p>
+             <div className="flex flex-col gap-2">
+             <SaleCard></SaleCard>
               <SaleCard></SaleCard>
               <SaleCard></SaleCard>
+             </div>
             </div>
           </div>
           <div className="h-[1400px] min-w-[1135px] bg-stone-600 ">
