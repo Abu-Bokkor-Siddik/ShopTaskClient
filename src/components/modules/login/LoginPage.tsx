@@ -21,7 +21,7 @@ const LoginPage = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col ">
-        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+        <div className="card flex-shrink-0 w-full -mt-60 max-w-sm shadow-2xl bg-base-100">
           <form className="card-body">
             {/* onSubmit={handellogins} */}
             <p className="text-center text-3xl font-semibold">Login</p>
@@ -61,7 +61,9 @@ const LoginPage = () => {
               </Link>
             </p>
             <div className="form-control mt-6">
-              <button className="btn btn-primary">Login</button>
+              <button className="btn bg-[#00B206] text-white hover:bg-[#00B206]">
+                Login
+              </button>
             </div>
           </form>
           {/* <button onClick={googlelog} className='btn btn-primary mx-8'>google</button> */}
