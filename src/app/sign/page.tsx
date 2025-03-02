@@ -1,9 +1,10 @@
+import SignUp from '@/src/components/modules/sign/SignUp'
 import React from 'react'
 
 const Sign = () => {
   return (
     <div>
-      sign up
+      <SignUp></SignUp>
     </div>
   )
 }
