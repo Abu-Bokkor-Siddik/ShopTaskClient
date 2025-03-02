@@ -1,3 +1,4 @@
+import LoginPage from "@/src/components/modules/login/LoginPage"
 import { IoIosArrowForward, IoIosHome } from "react-icons/io"
 
 const Login = () => {
@@ -17,6 +18,7 @@ const Login = () => {
                </div>
              </div>
              {/* end */}
+             <LoginPage></LoginPage>
     </div>
   )
 }
