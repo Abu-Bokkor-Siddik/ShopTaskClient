@@ -18,6 +18,7 @@ import clsx from "clsx";
 import { siteConfig } from "@/src/config/site";
 import { ThemeSwitch } from "@/src/components/theme-switch";
 import { SearchIcon, Logo } from "@/src/components/icons";
+import Search from "./search";
 
 export const Navbar = () => {
   const searchInput = (
@@ -84,10 +85,13 @@ export const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl"></a>
+        <a className="btn btn-ghost text-xl">Ecobazar</a>
+       
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+         <Search></Search> <button>Search</button>
+        {/* <ul className="menu menu-horizontal px-1">
+          
           <li>
             <a>Item 1</a>
           </li>
@@ -107,10 +111,10 @@ export const Navbar = () => {
           <li>
             <a>Item 3</a>
           </li>
-        </ul>
+        </ul> */}
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn ">Button</a>
       </div>
     </div>
   );
