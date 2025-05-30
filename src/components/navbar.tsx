@@ -1,25 +1,13 @@
-import {
-  Navbar as HeroUINavbar,
-  NavbarContent,
-  NavbarMenu,
-  NavbarMenuToggle,
-  NavbarBrand,
-  NavbarItem,
-  NavbarMenuItem,
-} from "@heroui/navbar";
-import { Button } from "@heroui/button";
+
 import { Kbd } from "@heroui/kbd";
 import { Link } from "@heroui/link";
 import { Input } from "@heroui/input";
 import { link as linkStyles } from "@heroui/theme";
-import NextLink from "next/link";
-import clsx from "clsx";
 
-import { siteConfig } from "@/src/config/site";
-import { ThemeSwitch } from "@/src/components/theme-switch";
 import { SearchIcon, Logo } from "@/src/components/icons";
 import Search from "./search";
-
+import { FaRegHeart } from "react-icons/fa";
+import { MdOutlineShoppingBag } from "react-icons/md";
 export const Navbar = () => {
   const searchInput = (
     <Input
@@ -114,7 +102,7 @@ export const Navbar = () => {
         </ul> */}
       </div>
       <div className="navbar-end">
-        <a className="btn ">Button</a>
+        <div className="flex justify-center items-center gap-3"><FaRegHeart className="h-6 w-6" /><p >|</p><div className=" btn flex justify-center items-center"><a ><MdOutlineShopp্নingBag className="w-7 h-7 " /> <p className="absolute ">icon</p></a> <div className="flex flex-col gap-2"><p className="">Shopping Cards</p> <p>$ 454.44</p></div></div></div>
       </div>
     </div>
   );
