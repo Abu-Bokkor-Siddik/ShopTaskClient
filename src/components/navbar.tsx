@@ -73,7 +73,7 @@ export const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Ecobazar</a>
+        <p className="btn btn-ghost text-xl">Ecobazar</p>
        
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -103,7 +103,7 @@ export const Navbar = () => {
       </div>
       <div className="navbar-end">
         <div className="flex justify-center items-center gap-3">
-          <FaRegHeart className="h-6 w-6" /><p >|</p>
+          <FaRegHeart className="h-6 w-6" /><p>|</p>
           <div className=" btn relative flex justify-center items-center"><p><MdOutlineShoppingBag className="w-7 h-7 " /> <p className="absolute top-0 bg-pink-500 p-1 rounded-full left-8">4</p></p> <div className="flex flex-col gap-2"><p className=" w-auto opacity-50 h-3">Shopping Cards</p> <p>$ 454.44</p></div></div></div>
       </div>
     </div>
