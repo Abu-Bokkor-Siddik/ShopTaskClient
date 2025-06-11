@@ -10,7 +10,7 @@ const OfferCard = () => {
           alt="Shoes"
         />
       </figure>
-      <div className=" flex items-center flex-col absolute top-0">
+      <div className=" flex items-center gap-14 flex-col absolute top-0">
         <h1 className=" ">Shoes!</h1>
         <p>If a dog chews shoes whose shoes does he choose?</p>
         <div className="">

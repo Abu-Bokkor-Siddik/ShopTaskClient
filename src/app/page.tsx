@@ -1,6 +1,5 @@
 import { IoIosArrowDown } from "react-icons/io";
 import { FiPhoneCall } from "react-icons/fi";
-import Image from "next/image";
 import { IoIosHome } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { CiFilter } from "react-icons/ci";
