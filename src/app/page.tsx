@@ -75,7 +75,7 @@ export default function Home() {
               <ThreeSection></ThreeSection>
               <FourSection></FourSection>
               <OfferCard></OfferCard>
-              <p className="text-2xl ">Sales Products</p>
+              <p className="text-2xl py-4 mx-10 ">Sales Products</p>
              <div className="flex flex-col gap-2">
              <SaleCard></SaleCard>
               <SaleCard></SaleCard>
