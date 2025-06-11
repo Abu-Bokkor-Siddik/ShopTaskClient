@@ -76,11 +76,11 @@ export default function Home() {
               <FourSection></FourSection>
               <OfferCard></OfferCard>
               <p className="text-2xl py-4 mx-10 ">Sales Products</p>
-             <div className="flex flex-col gap-3">
-             <SaleCard></SaleCard>
-              <SaleCard></SaleCard>
-              <SaleCard></SaleCard>
-             </div>
+              <div className="flex flex-col gap-3">
+                <SaleCard></SaleCard>
+                <SaleCard></SaleCard>
+                <SaleCard></SaleCard>
+              </div>
             </div>
           </div>
           <div className="h-[1400px] min-w-[1135px] bg-stone-600 ">
@@ -99,9 +99,7 @@ export default function Home() {
                 </select>
               </div>
 
-              <div className="text-xl text-red-700">
-                Dynammic Result Found{" "}
-              </div>
+              <div className="text-xl text-red-700">Dynammic Result Found </div>
             </div>
 
             {/* start */}
@@ -116,7 +114,7 @@ export default function Home() {
               <Card></Card>
               <Card></Card>
             </div>
-            
+
             {/* end */}
           </div>
         </div>
