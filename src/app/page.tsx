@@ -10,6 +10,8 @@ import ThreeSection from "../components/modules/home/SiteT/ThreeSection";
 import FourSection from "../components/modules/home/SiteT/FourSection";
 import OfferCard from "../components/modules/home/SiteT/OfferCard";
 import SaleCard from "../components/modules/home/SiteT/SaleCard";
+import Pagination from "../components/modules/home/SiteT/Pagination";
+import AllInOneside from "../components/modules/home/SiteT/AllInOneside";
 export default function Home() {
   return (
     <div>
@@ -80,6 +82,7 @@ export default function Home() {
               {/* 
                AllInOneside.jsx
              */}
+             {/* <AllInOneside></AllInOneside> */}
               <p className="text-2xl py-4 mx-10 ">Sales Products</p>
               <div className="flex flex-col gap-3">
                 <SaleCard></SaleCard>
@@ -121,6 +124,8 @@ export default function Home() {
             </div>
 
             {/* end */}
+            {/* pagination  */}
+            <Pagination></Pagination>
           </div>
         </div>
       </div>
