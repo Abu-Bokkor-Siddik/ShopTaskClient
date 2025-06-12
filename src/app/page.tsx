@@ -69,16 +69,16 @@ export default function Home() {
               </button>
 
               {/* here  */}
-              {/* <BasicAccordion></BasicAccordion> */}
-              {/* <TwoSection></TwoSection>
+              <BasicAccordion></BasicAccordion>
+              <TwoSection></TwoSection>
               <ThreeSection></ThreeSection>
               <FourSection></FourSection>
-              <OfferCard></OfferCard> */}
+              <OfferCard></OfferCard>
 
               
 
-              {/* এন্ড
-              হেযার  AllInOneside.jsx
+              {/* 
+               AllInOneside.jsx
              */}
               <p className="text-2xl py-4 mx-10 ">Sales Products</p>
               <div className="flex flex-col gap-3">
