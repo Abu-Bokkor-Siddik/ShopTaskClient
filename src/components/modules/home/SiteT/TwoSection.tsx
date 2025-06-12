@@ -44,7 +44,7 @@ const handleDecrease = () => {
           </button>
 
           <div
-            className={`grid ml-28 -mt-3 items-center text-black overflow-hidden  transition-all duration-300 ease-in-out ${isOpen === idx ? "grid-rows-[1fr] pb-1 pt-3 opacity-100" : "grid-rows-[0fr] opacity-0"}`}
+            className={`grid ml-16 -mt-3 items-center text-black overflow-hidden  transition-all duration-300 ease-in-out ${isOpen === idx ? "grid-rows-[1fr] pb-1 pt-3 opacity-100" : "grid-rows-[0fr] opacity-0"}`}
           >
             {/* rang input */}
             <div>
