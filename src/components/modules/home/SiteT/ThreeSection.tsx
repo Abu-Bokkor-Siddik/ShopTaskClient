@@ -20,7 +20,7 @@ export default function ThreeSection() {
   // value
 
   return (
-    <div className=" h-auto max-w-[400px] rounded-lg bg-zinc-400 p-3 ">
+    <div className=" h-auto max-w-[330px] rounded-lg bg-zinc-400 p-3 ">
       {dataArr.map((PerAccordion, idx) => (
         <div key={idx} className="">
           <button

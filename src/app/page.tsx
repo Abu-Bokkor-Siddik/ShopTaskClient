@@ -65,7 +65,7 @@ export default function Home() {
         <div className="bg-red-400 pt-7 flex w-full h-40 mx-8 container">
           <div>
             {/* st */}
-            <div className="bg-slate-600 w-[400px] h-full">
+            <div className="bg-slate-600 w-[350px] h-full">
               <button className="bg-[#00B206] ml-28   px-7 flex justify-center items-center gap-2 py-2 rounded-2xl">
                 Filter <CiFilter />
               </button>
@@ -89,7 +89,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="h-[1400px] min-w-[1135px] bg-stone-600 ">
+          <div className="h-[1400px] min-w-[1205px] bg-stone-600 ">
             <div className="flex justify-between  items-center  ">
               <div className="flex justify-between items-center ">
                 <h1>Sort by:</h1>
