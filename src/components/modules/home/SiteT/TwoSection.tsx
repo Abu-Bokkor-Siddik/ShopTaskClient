@@ -26,7 +26,7 @@ export default function TwoSection() {
     if (value > 0) setValue(value - 1);
   };
   return (
-    <div className=" h-auto max-w-[330px] rounded-lg bg-zinc-400 p-3 ">
+    <div className=" h-auto max-w-[330px]  bg-zinc-400 p-3 ">
       {dataArr.map((PerAccordion, idx) => (
         <div key={idx} className="">
           <button
