@@ -43,11 +43,11 @@ export default function ThreeSection() {
             {/* rang input */}
             {/* st call another component */}
             <div className="flex flex-col gap-2">
-            <Rating />
-            <Rating />
-            <Rating />
-            <Rating />
-            <Rating />
+              <Rating />
+              <Rating />
+              <Rating />
+              <Rating />
+              <Rating />
             </div>
           </div>
         </div>
