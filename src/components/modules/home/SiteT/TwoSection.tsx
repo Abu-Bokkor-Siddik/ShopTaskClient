@@ -15,16 +15,16 @@ export default function TwoSection() {
   const toggle = (idx) => {
     setIsOpen((prevIdx) => (prevIdx === idx ? null : idx));
   };
-// value 
-const [value, setValue] = useState(50);
+  // value
+  const [value, setValue] = useState(50);
 
-const handleIncrease = () => {
-  if (value < 100) setValue(value + 1);
-};
+  const handleIncrease = () => {
+    if (value < 100) setValue(value + 1);
+  };
 
-const handleDecrease = () => {
-  if (value > 0) setValue(value - 1);
-};
+  const handleDecrease = () => {
+    if (value > 0) setValue(value - 1);
+  };
   return (
     <div className=" h-auto max-w-[330px] rounded-lg bg-zinc-400 p-3 ">
       {dataArr.map((PerAccordion, idx) => (
