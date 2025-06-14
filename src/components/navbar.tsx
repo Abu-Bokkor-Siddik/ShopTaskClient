@@ -75,7 +75,7 @@ export const Navbar = () => {
         <p className="btn btn-ghost text-xl">Ecobazar</p>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <Search></Search> <button className="btn btn-success ">Search</button>
+        <Search></Search> <button className="btn ml-4 btn-success ">Search</button>
       
       </div>
       <div className="navbar-end">
