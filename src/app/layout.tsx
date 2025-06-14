@@ -51,7 +51,6 @@ export default function RootLayout({
             <Uper />
             <Navbar />
             <main className="container flex-grow">{children}</main>
-           
           </div>
         </Providers>
       </body>

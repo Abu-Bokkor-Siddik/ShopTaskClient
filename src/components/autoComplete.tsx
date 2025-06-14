@@ -33,7 +33,7 @@ export default function Auto() {
           Sign In / Sign Up
         </button>
       </div>
-      {/* <h1>|</h1> */}
+      
     </div>
   );
 }
