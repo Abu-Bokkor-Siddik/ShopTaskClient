@@ -72,7 +72,7 @@ export const Navbar = () => {
             </li>
           </ul>
         </div>
-        <p className="btn btn-ghost text-xl">Ecobazar</p>
+        <p className="btn btn-ghost text-2xl">Ecobazar</p>
       </div>
       <div className="navbar-center hidden lg:flex">
         <Search></Search> <button className="btn ml-4 btn-success ">Search</button>
