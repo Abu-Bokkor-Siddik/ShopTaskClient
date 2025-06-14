@@ -25,8 +25,8 @@ export default function Auto() {
           <option disabled selected>
             Select
           </option>
-          <option>Eng</option>
-          <option>Bangla</option>
+          <option>$Usd</option>
+          <option>Taka</option>
         </select>
         <div className="mx-7 text-white">|</div>
         <button className="btn-sm btn-neutral mx-3 bg-neutral-700 text-neutral-300">
