@@ -65,8 +65,8 @@ export default function Home() {
         <div className="bg-red-400 pt-7 flex w-full h-40 mx-8 container">
           <div>
             {/* st */}
-            <div className="bg-slate-600 w-[350px] h-full">
-              <button className="bg-[#00B206] ml-28   px-7 flex justify-center items-center gap-2 py-2 rounded-2xl">
+            <div className="bg-slate-600 w-[350px]  h-full">
+              <button className=" btn btn-success ml-28 px-7 flex justify-center items-center gap-2 py-2 rounded-2xl">
                 Filter <CiFilter />
               </button>
 

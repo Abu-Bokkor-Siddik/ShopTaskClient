@@ -1,6 +1,5 @@
 /* eslint-disable prettier/prettier */
 import { CiLocationOn } from "react-icons/ci";
-
 import Auto from "./autoComplete";
 const Uper = () => {
   return (
