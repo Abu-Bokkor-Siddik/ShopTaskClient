@@ -33,7 +33,6 @@ export default function Auto() {
           Sign In / Sign Up
         </button>
       </div>
-      
     </div>
   );
 }
