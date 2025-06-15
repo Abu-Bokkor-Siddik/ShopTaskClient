@@ -66,7 +66,7 @@ export default function Home() {
           <div>
             {/* st */}
             <div className="bg-slate-600 w-[350px]  h-full">
-              <button className=" btn btn-success ml-28 px-7 flex justify-center items-center gap-2 py-2 rounded-2xl">
+              <button className=" btn btn-success ml-28 px-7 flex justify-center items-center gap-2 rounded-2xl">
                 Filter <CiFilter />
               </button>
 
@@ -91,7 +91,7 @@ export default function Home() {
           </div>
           <div className="h-[1400px] min-w-[1205px] bg-stone-600 ">
             <div className="flex justify-between  items-center  ">
-              <div className="flex justify-between items-center ">
+              <div className="flex my-5 justify-between items-center ">
                 <h1>Sort by:</h1>
                 <select
                   defaultValue="eng"
@@ -100,8 +100,8 @@ export default function Home() {
                   <option disabled selected>
                     Select
                   </option>
-                  <option>Eng</option>
-                  <option>Bangla</option>
+                  <option>Latest</option>
+                  <option>Oldest</option>
                 </select>
               </div>
 
