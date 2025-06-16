@@ -89,7 +89,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="h-[1400px] min-w-[1205px] bg-slate-200 ">
+          <div className="h-[1400px] min-w-[1205px] bg-slate-50 ">
             <div className="flex justify-between  items-center  ">
               <div className="flex my-5 justify-between items-center ">
                 <h1>Sort by:</h1>
