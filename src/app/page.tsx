@@ -95,7 +95,7 @@ export default function Home() {
                 <h1>Sort by:</h1>
                 <select
                   defaultValue="eng"
-                  className="select btn-sm select-bordered w-28 text-neutral-300"
+                  className="select btn-sm select-bordered w-28 text-black"
                 >
                   <option disabled selected>
                     Select
