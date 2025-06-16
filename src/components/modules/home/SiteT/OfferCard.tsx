@@ -10,11 +10,11 @@ const OfferCard = () => {
           alt="Shoes"
         />
       </figure>
-      <div className=" flex items-center gap-5 flex-col absolute top-0">
-        <h6 className=" text-3xl mt-3 ">79% Discount</h6>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+      <div className=" flex items-center gap-7 justify-center flex-col absolute top-1/4 left-14">
+        <h6 className=" text-3xl ">79% Discount</h6>
+        <p>On your first order</p>
         <div className="">
-          <button className="btn ">Buy Now</button>
+          <button className="btn ">Shope Now {"==>"} </button>
         </div>
       </div>
     </div>
