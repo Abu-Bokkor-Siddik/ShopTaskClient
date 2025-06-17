@@ -41,31 +41,31 @@ export default function FourSection() {
             {/* rang input */}
             {/* st call another component */}
             <div className="grid grid-cols-3 gap-2">
-              <button className="btn btn-ghost btn-sm rounded-full btn-outline btn-success">
+              <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
                 Success
               </button>
-              <button className="btn btn-ghost btn-sm rounded-full btn-outline btn-success">
+              <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
                 Success
               </button>
-              <button className="btn btn-ghost btn-sm rounded-full btn-outline btn-success">
+              <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
                 Success
               </button>
-              <button className="btn btn-ghost btn-sm rounded-full btn-outline btn-success">
+              <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
                 Success
               </button>
-              <button className="btn btn-ghost btn-sm rounded-full btn-outline btn-success">
+              <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
                 Success
               </button>
-              <button className="btn btn-ghost btn-sm rounded-full btn-outline btn-success">
+              <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
                 Success
               </button>
-              <button className="btn btn-ghost btn-sm rounded-full btn-outline btn-success">
+              <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
                 Success
               </button>
-              <button className="btn btn-ghost btn-sm rounded-full btn-outline btn-success">
+              <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
                 Success
               </button>
-              <button className="btn btn-ghost btn-sm rounded-full btn-outline btn-success">
+              <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
                 Success
               </button>
             </div>
