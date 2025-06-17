@@ -59,7 +59,7 @@ export default function FourSection() {
               <button className="btn btn-ghost btn-sm rounded-full btn-outline btn-success">
                 Success
               </button>
-              <button className="btn btn-sm rounded-full btn-outline btn-success">
+              <button className="btn btn-ghost btn-sm rounded-full btn-outline btn-success">
                 Success
               </button>
               <button className="btn btn-sm rounded-full btn-outline btn-success">
