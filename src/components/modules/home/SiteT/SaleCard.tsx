@@ -1,11 +1,23 @@
 import React from "react";
+import { FaStar } from "react-icons/fa";
 
 const SaleCard = () => {
   return (
     <div className="card bg-neutral text-neutral-content h-28 w-72">
       <div className="card-body items-center text-center">
-        <h5 className="card-title">79% Discount</h5>
-        <p>We are using cookies for no reason.</p>
+        <div>
+          <div >
+            <h1>products name </h1>
+                  <p className="mb-2">300$</p>
+                  <p className="flex gap-1 items-center">
+                  <FaStar className="text-yellow-500" />
+                  <FaStar className="text-yellow-500" />
+                  <FaStar className="text-yellow-500" />
+                  <FaStar className="text-yellow-500" />
+                  <FaStar className="text-yellow-500" />
+                  </p>
+                  </div>
+        </div>
       </div>
     </div>
   );
