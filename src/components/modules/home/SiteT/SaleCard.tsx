@@ -8,6 +8,7 @@ const SaleCard = () => {
       <div className="card-body items-center text-center">
         <div className="flex gap-3 items-center">
           {/* <Image width={200} height={200} className=" rounded-md " src="https://i.ibb.co/j8mhHQ6/download-2.jpg" alt="images" /> */}
+          <img className=" rounded-md  h-20 w-20 " src="https://i.ibb.co/j8mhHQ6/download-2.jpg" alt="product"  />
           <div>
             <h1>products name </h1>
             <p className="mb-2">300$</p>
