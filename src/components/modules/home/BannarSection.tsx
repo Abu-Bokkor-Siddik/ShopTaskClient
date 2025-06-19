@@ -3,7 +3,8 @@
 const BannarSection = () => {
   return (
     <div>
-      hello
+      {/* for te */}
+      hello 
     </div>
   )
 }
