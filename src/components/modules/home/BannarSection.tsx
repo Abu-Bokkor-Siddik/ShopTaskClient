@@ -3,7 +3,7 @@
 const BannarSection = () => {
   return (
     <div>
-      
+      hello
     </div>
   )
 }
