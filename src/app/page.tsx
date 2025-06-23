@@ -109,7 +109,7 @@ export default function Home() {
             </div>
 
             {/* start */}
-            <div className="grid grid-cols-3 justify-center items-center mx-12 gap-8">
+            <div className="grid max grid-cols-3 justify-center max-w-[900px] items-center mx-12 gap-8">
               <Card></Card>
               <Card></Card>
               <Card></Card>
