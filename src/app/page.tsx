@@ -3,7 +3,6 @@ import { FiPhoneCall } from "react-icons/fi";
 import { IoIosHome } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { CiFilter } from "react-icons/ci";
-
 import BasicAccordion from "../components/modules/home/Accordion";
 import Card from "../components/card";
 import TwoSection from "../components/modules/home/SiteT/TwoSection";
