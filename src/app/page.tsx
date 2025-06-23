@@ -123,7 +123,7 @@ export default function Home() {
 
             {/* end */}
             {/* pagination  */}
-            <div>
+            <div className="">
               <Pagination></Pagination>
             </div>
           </div>
