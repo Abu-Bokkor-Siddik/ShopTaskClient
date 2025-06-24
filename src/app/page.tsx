@@ -12,6 +12,7 @@ import OfferCard from "../components/modules/home/SiteT/OfferCard";
 import SaleCard from "../components/modules/home/SiteT/SaleCard";
 import Pagination from "../components/modules/home/SiteT/Pagination";
 import AllInOneside from "../components/modules/home/SiteT/AllInOneside";
+
 export default function Home() {
   return (
     <div>
