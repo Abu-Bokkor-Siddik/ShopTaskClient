@@ -105,7 +105,7 @@ export default function Home() {
                 </select>
               </div>
 
-              <div className="text-xl mr-10 text-red-700">40 </div>
+              <div className="text-xl lg:mr-10 text-red-700">40 </div>
             </div>
 
             {/* start */}
