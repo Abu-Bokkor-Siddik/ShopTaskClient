@@ -91,7 +91,7 @@ export default function Home() {
           </div>
           <div className="h-[1400px] min-w-[1205px] bg-slate-50 ">
             <div className="flex justify-between  items-center  ">
-              <div className="flex my-5 justify-between items-center ">
+              <div className="flex my-5  max-w-[1200px] justify-between items-center ">
                 <h1>Sort by:</h1>
                 <select
                   defaultValue="eng"
@@ -105,7 +105,7 @@ export default function Home() {
                 </select>
               </div>
 
-              <div className="text-xl lg:mr-10 text-red-700">40 </div>
+              <div className="text-xl lg:max-w-[500px] lg:mr-60  text-red-700 ">40 </div>
             </div>
 
             {/* start */}
