@@ -2,7 +2,6 @@
 /* eslint-disable react/jsx-sort-props */
 import "@/src/styles/globals.css";
 import { Metadata, Viewport } from "next";
-import { Link } from "@heroui/link";
 import clsx from "clsx";
 
 import { Providers } from "./providers";
