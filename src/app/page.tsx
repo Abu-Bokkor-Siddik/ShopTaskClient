@@ -1,22 +1,21 @@
+/* eslint-disable prettier/prettier */
 import { IoIosArrowDown } from "react-icons/io";
 import { FiPhoneCall } from "react-icons/fi";
 import { IoIosHome } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { CiFilter } from "react-icons/ci";
+
 import BasicAccordion from "../components/modules/home/Accordion";
 import Card from "../components/card";
-import Productes from "../components/supabase/Learn";
+// import Productes from "../components/supabase/Learn";
 import TwoSection from "../components/modules/home/SiteT/TwoSection";
 import ThreeSection from "../components/modules/home/SiteT/ThreeSection";
 import FourSection from "../components/modules/home/SiteT/FourSection";
 import OfferCard from "../components/modules/home/SiteT/OfferCard";
 import SaleCard from "../components/modules/home/SiteT/SaleCard";
 import Pagination from "../components/modules/home/SiteT/Pagination";
-import AllInOneside from "../components/modules/home/SiteT/AllInOneside";
-
 
 export default function Home() {
-  
   return (
     <div>
       <div className="w-full h-12 flex justify-between items-center container  mx-5 border p-2">
@@ -52,13 +51,13 @@ export default function Home() {
         </div>
       </div>
       {/* end  */}
-      
+
       <div>
         <div className="relative">
           <img
+            alt=""
             className="w-screen h-40 mx-8 flex justify-center items-center"
             src="https://i.ibb.co.com/RkfYBPWN/Green-Fresh-Vegetable-Mobile-Banner-Ad-1.png"
-            alt=""
           />
           <div className="absolute top-16 flex items-center justify-center text-neutral-400 ml-32 gap-1">
             <IoIosHome /> <IoIosArrowForward />
@@ -76,11 +75,11 @@ export default function Home() {
               </button>
 
               {/* here  */}
-              <BasicAccordion></BasicAccordion>
-              <TwoSection></TwoSection>
-              <ThreeSection></ThreeSection>
-              <FourSection></FourSection>
-              <OfferCard></OfferCard>
+              <BasicAccordion />
+              <TwoSection />
+              <ThreeSection />
+              <FourSection />
+              <OfferCard />
 
               {/* 
                AllInOneside.jsx
@@ -88,9 +87,9 @@ export default function Home() {
               {/* <AllInOneside></AllInOneside> */}
               <p className="text-2xl py-4 mx-10 ">Sales Products</p>
               <div className="flex flex-col gap-3">
-                <SaleCard></SaleCard>
-                <SaleCard></SaleCard>
-                <SaleCard></SaleCard>
+                <SaleCard />
+                <SaleCard />
+                <SaleCard />
               </div>
             </div>
           </div>
@@ -99,8 +98,8 @@ export default function Home() {
               <div className="flex my-5  max-w-[1200px] justify-between items-center ">
                 <h1>Sort by:</h1>
                 <select
-                  defaultValue="eng"
                   className="select btn-sm select-bordered w-28 text-black ml-3"
+                  defaultValue="eng"
                 >
                   <option disabled selected>
                     Select
@@ -110,26 +109,28 @@ export default function Home() {
                 </select>
               </div>
 
-              <div className="text-xl lg:max-w-[500px] lg:mr-60  text-red-700 ">40 </div>
+              <div className="text-xl lg:max-w-[500px] lg:mr-60  text-red-700 ">
+                40{" "}
+              </div>
             </div>
 
             {/* start */}
             <div className="grid max grid-cols-1 lg:grid-cols-3 justify-center max-w-[900px] items-center mx-12 gap-8">
-              <Card></Card>
-              <Card></Card>
-              <Card></Card>
-              <Card></Card>
-              <Card></Card>
-              <Card></Card>
-              <Card></Card>
-              <Card></Card>
-              <Card></Card>
+              <Card />
+              <Card />
+              <Card />
+              <Card />
+              <Card />
+              <Card />
+              <Card />
+              <Card />
+              <Card />
             </div>
 
             {/* end */}
             {/* pagination  */}
             <div className="lg:w-full w-96">
-              <Pagination></Pagination>
+              <Pagination />
             </div>
             {/* <Learn></Learn> */}
             {/* <Productes></Productes> */}
