@@ -5,6 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { CiFilter } from "react-icons/ci";
 import BasicAccordion from "../components/modules/home/Accordion";
 import Card from "../components/card";
+import Productes from "../components/supabase/Learn";
 import TwoSection from "../components/modules/home/SiteT/TwoSection";
 import ThreeSection from "../components/modules/home/SiteT/ThreeSection";
 import FourSection from "../components/modules/home/SiteT/FourSection";
@@ -13,7 +14,9 @@ import SaleCard from "../components/modules/home/SiteT/SaleCard";
 import Pagination from "../components/modules/home/SiteT/Pagination";
 import AllInOneside from "../components/modules/home/SiteT/AllInOneside";
 
+
 export default function Home() {
+  
   return (
     <div>
       <div className="w-full h-12 flex justify-between items-center container  mx-5 border p-2">
@@ -49,6 +52,7 @@ export default function Home() {
         </div>
       </div>
       {/* end  */}
+      
       <div>
         <div className="relative">
           <img
@@ -127,6 +131,8 @@ export default function Home() {
             <div className="lg:w-full w-96">
               <Pagination></Pagination>
             </div>
+            {/* <Learn></Learn> */}
+            {/* <Productes></Productes> */}
           </div>
         </div>
       </div>
