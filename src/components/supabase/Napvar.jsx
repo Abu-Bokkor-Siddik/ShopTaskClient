@@ -1,3 +1,4 @@
+/* eslint-disable react/self-closing-comp */
 /* eslint-disable prettier/prettier */
 import { useEffect, useState } from "react";
 
