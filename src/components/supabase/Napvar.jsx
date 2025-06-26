@@ -22,8 +22,8 @@ const Navbar2 = () => {
     };
   }, []);
   return (
-    <div className="z-30 ">
-      <div className="drawer z-50  fixed   ">
+    <div className="z-30  ">
+      <div className="drawer z-50 lg:hidden  fixed bg-black -top-5  ">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content  flex flex-col">
           {/* Navbar */}
@@ -58,9 +58,9 @@ const Navbar2 = () => {
                   </svg>
                 </label>
               </div>
-              <div className=" flex flex-1   px-2 mx-2">
+              <div className=" flex flex-1  px-2 mx-2">
                 {/**here is logo and nav bar  */}
-                <div className="flex   lg:justify-start items-center ">
+                <div className="flex  lg:justify-start items-center ">
                   <pre className="text-2xl  text-[#06283D] font-bold">
                     𝓼𝓲𝓭𝓭𝓲𝓴.𝓭𝓮𝓿
                   </pre>
