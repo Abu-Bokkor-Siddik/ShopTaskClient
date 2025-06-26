@@ -1,7 +1,6 @@
 import { Kbd } from "@heroui/kbd";
 import { Link } from "@heroui/link";
 import { Input } from "@heroui/input";
-import { link as linkStyles } from "@heroui/theme";
 
 import { SearchIcon, Logo } from "@/src/components/icons";
 import Search from "./search";
