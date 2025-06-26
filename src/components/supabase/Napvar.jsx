@@ -1,3 +1,5 @@
+"use client";
+
 /* eslint-disable react/jsx-sort-props */
 /* eslint-disable react/self-closing-comp */
 /* eslint-disable prettier/prettier */

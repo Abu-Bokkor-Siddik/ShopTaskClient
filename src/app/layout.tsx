@@ -10,6 +10,7 @@ import { siteConfig } from "@/src/config/site";
 import { fontSans } from "@/src/config/fonts";
 import { Navbar } from "@/src/components/navbar";
 import Uper from "../components/uper";
+import Napvar from "../components/supabase/Napvar";
 
 export const metadata: Metadata = {
   title: {
@@ -49,6 +50,7 @@ export default function RootLayout({
           <div className="relative flex flex-col h-screen">
             <Uper />
             <Navbar />
+            <Napvar></Napvar>
             <main className="container flex-grow">{children}</main>
           </div>
         </Providers>
