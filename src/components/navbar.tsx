@@ -1,5 +1,5 @@
 import { Kbd } from "@heroui/kbd";
-import { Link } from "@heroui/link";
+
 import { Input } from "@heroui/input";
 
 import { SearchIcon, Logo } from "@/src/components/icons";
