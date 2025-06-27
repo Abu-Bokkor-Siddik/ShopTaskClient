@@ -74,26 +74,24 @@ const Navbar2 = () => {
                       className="text-lg text-[#06283D]   font-semibold"
                       href="#home"
                     >
-                      HOME
+                      Category
                     </a>
                     <a
                       className="text-lg text-[#06283D]  font-semibold"
                       href="#about"
                     >
-                      ABOUT
+                      Range
                     </a>
                     <a
                       className="text-lg text-[#06283D]  font-semibold"
                       href="#skill"
                     >
-                      SKILLS
+                      Rating
                     </a>
                     <a
                       className="text-lg text-[#06283D]  font-semibold"
                       href="#project"
-                    >
-                      PROJECTS
-                    </a>
+                    ></a>
                     <a
                       className="text-lg text-[#06283D]  font-semibold"
                       href="#contact"
