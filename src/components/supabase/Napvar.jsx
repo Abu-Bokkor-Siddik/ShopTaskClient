@@ -91,7 +91,9 @@ const Navbar2 = () => {
                     <a
                       className="text-lg text-[#06283D]  font-semibold"
                       href="#project"
-                    ></a>
+                    >
+                      Tags
+                    </a>
                     <a
                       className="text-lg text-[#06283D]  font-semibold"
                       href="#contact"
