@@ -121,19 +121,19 @@ const Navbar2 = () => {
             {/* Sidebar content here */}
             <div className="flex flex-col gap-2">
               <a className="text-base text-[#06283D]   font-bold" href="#home">
-                HOME
+                Category
               </a>
               <a className="text-base text-[#06283D]  font-bold" href="#about">
-                ABOUT
+                Range
               </a>
               <a className="text-base text-[#06283D]   font-bold" href="#skill">
-                SKILLS
+                Rating
               </a>
               <a
                 className="text-base text-[#06283D]  font-bold"
                 href="#project"
               >
-                PROJECTS
+                Tags
               </a>
               <a
                 className="text-base text-[#06283D]  font-bold"
