@@ -24,7 +24,7 @@ const Navbar2 = () => {
   return (
     <div className="z-30  ">
       {/* here mobail view */}
-      <div className="drawer z-50 lg:hidden  fixed bg-black -top-5  ">
+      <div className="drawer z-50 lg:hidden  fixed bg-black top-28  ">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content  flex flex-col">
           {/* Navbar */}
