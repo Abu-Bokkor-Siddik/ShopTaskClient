@@ -22,7 +22,7 @@ export default function Home() {
     <div>
       <div className="w-full h-12 flex justify-between items-center container  mx-5 border p-2">
         <div className="flex items-center gap-8">
-          <div className=" flex items-center gap-1 justify-center">
+          <div className=" flex hidden lg:visible items-center gap-1 justify-center">
             <button>Home</button>
 
             <IoIosArrowDown />
