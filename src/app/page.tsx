@@ -17,7 +17,7 @@ import SaleCard from "../components/modules/home/SiteT/SaleCard";
 import Pagination from "../components/modules/home/SiteT/Pagination";
 
 export default function Home() {
-  //
+  //for test
   console.log("SUPABASE URL:", process.env.NEXT_PUBLIC_SUPABASE_URL);
   return (
     <div>
