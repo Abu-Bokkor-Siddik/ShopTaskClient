@@ -20,37 +20,39 @@ export default function Home() {
   console.log("SUPABASE URL:", process.env.NEXT_PUBLIC_SUPABASE_URL);
   return (
     <div>
-      <div className="w-full h-12 flex justify-between items-center container  mx-5 border p-2">
-        <div className="flex items-center gap-8">
-          <div className=" flex hidden lg:visible items-center gap-1 justify-center">
-            <button>Home</button>
+      <div className="hidden lg:block">
+        <div className="w-full   h-12 flex justify-between items-center container  mx-5 border p-2">
+          <div className="flex  items-center gap-8">
+            <div className=" flex   items-center gap-1 justify-center">
+              <button>Home</button>
 
-            <IoIosArrowDown />
+              <IoIosArrowDown />
+            </div>
+            <div className=" flex items-center gap-1 justify-center">
+              <button>Shop</button>
+              <IoIosArrowDown />
+            </div>
+            <div className=" flex items-center gap-1 justify-center">
+              <button>Pages</button>
+              <IoIosArrowDown />
+            </div>
+            <div className=" flex items-center gap-1 justify-center">
+              <button>Blog</button>
+              <IoIosArrowDown />
+            </div>
+            <div className=" flex items-center gap-1 justify-center">
+              <button>About us</button>
+              <IoIosArrowDown />
+            </div>
+            <div className=" flex items-center gap-1 justify-center">
+              <button>Contact us</button>
+              <IoIosArrowDown />
+            </div>
           </div>
-          <div className=" flex items-center gap-1 justify-center">
-            <button>Shop</button>
-            <IoIosArrowDown />
+          {/* end */}
+          <div className="flex   justify-items-center items-center gap-3">
+            <FiPhoneCall /> <h1>(219)555-0114</h1>
           </div>
-          <div className=" flex items-center gap-1 justify-center">
-            <button>Pages</button>
-            <IoIosArrowDown />
-          </div>
-          <div className=" flex items-center gap-1 justify-center">
-            <button>Blog</button>
-            <IoIosArrowDown />
-          </div>
-          <div className=" flex items-center gap-1 justify-center">
-            <button>About us</button>
-            <IoIosArrowDown />
-          </div>
-          <div className=" flex items-center gap-1 justify-center">
-            <button>Contact us</button>
-            <IoIosArrowDown />
-          </div>
-        </div>
-        {/* end */}
-        <div className="flex justify-items-center items-center gap-3">
-          <FiPhoneCall /> <h1>(219)555-0114</h1>
         </div>
       </div>
       {/* end  */}
