@@ -30,7 +30,7 @@ export default function Auto() {
         </select>
         <div className="mx-7 text-white">|</div>
         <button className="btn-sm btn-neutral mx-3 bg-neutral-700 text-neutral-300">
-          Sign In / Sign Up
+          Sign In
         </button>
       </div>
     </div>
