@@ -29,7 +29,7 @@ export default function Auto() {
           <option>Taka</option>
         </select>
         <div className="mx-2 text-white">|</div>
-        <button className="btn-sm btn-neutral mx-3 bg-neutral-700 text-neutral-300">
+        <button className="btn-sm btn-neutral my-2 mx-3 bg-neutral-700 text-neutral-300">
           Sign In
         </button>
       </div>
