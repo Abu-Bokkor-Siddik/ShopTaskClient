@@ -62,10 +62,10 @@ export default function Home() {
         <div className="relative">
           <img
             alt=""
-            className="w-screen h-40 mt-10 lg:mt-0 lg:mx-8 flex justify-center items-center"
+            className="w-screen h-40 mt-14 lg:mt-0 lg:mx-8 flex justify-center items-center"
             src="https://i.ibb.co.com/RkfYBPWN/Green-Fresh-Vegetable-Mobile-Banner-Ad-1.png"
           />
-          <div className="absolute top-16 flex items-center justify-center text-neutral-400 ml-32 gap-1">
+          <div className="absolute  top-16 flex items-center justify-center text-neutral-400 ml-32 gap-1">
             <IoIosHome /> <IoIosArrowForward />
             Categories <IoIosArrowForward />
             <h1>dinamic</h1>
