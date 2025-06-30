@@ -22,9 +22,9 @@ const Navbar2 = () => {
     };
   }, []);
   return (
-    <div className="z-30  ">
+    <div className="  ">
       {/* here mobail view */}
-      <div className="drawer z-50 min-w-20 lg:hidden  fixed bg-black top-36  ">
+      <div className="drawer z-50 max-w-[425px] lg:hidden  fixed bg-black top-36  ">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content  flex flex-col">
           {/* Navbar */}
