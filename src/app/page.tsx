@@ -65,7 +65,7 @@ export default function Home() {
             className="w-screen h-40  lg:mt-0 lg:mx-8 flex justify-center items-center"
             src="https://i.ibb.co.com/RkfYBPWN/Green-Fresh-Vegetable-Mobile-Banner-Ad-1.png"
           />
-          <div className="absolute  top-16 flex items-center justify-center text-neutral-400 ml-32 gap-1">
+          <div className="absolute   top-16 flex items-center justify-center text-neutral-400 ml-32 gap-1">
             <IoIosHome /> <IoIosArrowForward />
             Categories <IoIosArrowForward />
             <h1>dinamic</h1>
@@ -75,7 +75,7 @@ export default function Home() {
         <div className=" pt-7 flex w-full h-40 mx-8 container">
           <div>
             {/* st */}
-            <div className=" w-[350px]  h-full">
+            <div className=" w-[350px]   h-full">
               <button className=" btn btn-success ml-28 px-7 flex justify-center items-center gap-2 rounded-2xl  mb-6">
                 Filter <CiFilter />
               </button>
