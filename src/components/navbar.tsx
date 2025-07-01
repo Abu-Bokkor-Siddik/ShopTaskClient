@@ -45,7 +45,7 @@ export const Navbar = () => {
             {/* Page content here */}
             <label
               htmlFor="my-drawer"
-              className="btn -ml-3 btn-sm  drawer-button"
+              className="btn -ml-6 block lg:hidden btn-sm  drawer-button"
             >
               side
             </label>
@@ -56,7 +56,7 @@ export const Navbar = () => {
               aria-label="close sidebar"
               className="drawer-overlay"
             ></label>
-            <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+            <ul className="menu  bg-base-200 text-base-content h-full w-80 p-4">
               {/* Sidebar content here */}
               <li>
                 <a>Sidebar Item 1</a>
