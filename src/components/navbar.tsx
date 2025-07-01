@@ -45,9 +45,9 @@ export const Navbar = () => {
             {/* Page content here */}
             <label
               htmlFor="my-drawer"
-              className="btn btn-primary drawer-button"
+              className="btn -ml-3 btn-sm  drawer-button"
             >
-              Open drawer
+              side
             </label>
           </div>
           <div className="drawer-side">
