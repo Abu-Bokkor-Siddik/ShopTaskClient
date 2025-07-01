@@ -10,7 +10,6 @@ import { siteConfig } from "@/src/config/site";
 import { fontSans } from "@/src/config/fonts";
 import { Navbar } from "@/src/components/navbar";
 import Uper from "../components/uper";
-import Napvar from "../components/supabase/Napvar";
 
 export const metadata: Metadata = {
   title: {
