@@ -72,7 +72,7 @@ export default function Home() {
           </div>
         </div>
         {/* end */}
-        <div className=" pt-7 flex w-full h-40 mx-8 container">
+        <div className=" pt-7 flex w-auto h-40 mx-8 container">
           <div>
             {/* st */}
             <div className=" w-[350px]   h-full">

@@ -29,7 +29,7 @@ export const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-white">
+    <div className="navbar ">
       <div className="navbar-start">
         <div className="dropdown">
           <div
