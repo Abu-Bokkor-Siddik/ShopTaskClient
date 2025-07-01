@@ -50,7 +50,7 @@ export default function RootLayout({
           <div className="relative flex flex-col h-screen">
             <Uper />
             <Navbar />
-            <Napvar></Napvar>
+
             <main className="container flex-grow">{children}</main>
           </div>
         </Providers>
