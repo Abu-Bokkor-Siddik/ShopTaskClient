@@ -6,21 +6,21 @@
 import { useEffect, useState } from "react";
 
 const Navbar2 = () => {
-  const [sroll, setScroll] = useState(false);
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScroll(true);
-      } else {
-        setScroll(false);
-      }
-    };
-    window.addEventListener("scroll", handleScroll);
+  // const [sroll, setScroll] = useState(false);
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY > 50) {
+  //       setScroll(true);
+  //     } else {
+  //       setScroll(false);
+  //     }
+  //   };
+  //   window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
   return (
     <div className="  ">
       {/* here mobail view */}
@@ -29,12 +29,12 @@ const Navbar2 = () => {
         <div className="drawer-content  flex flex-col">
           {/* Navbar */}
           <div
-            style={
-              sroll
-                ? { backdropFilter: "blur(50px)" }
-                : { backgroundColor: "transparent" }
-            }
-            className="w-full  h-auto lg:h-20 navbar   "
+          // style={
+          //   sroll
+          //     ? { backdropFilter: "blur(50px)" }
+          //     : { backgroundColor: "transparent" }
+          // }
+          // className="w-full  h-auto lg:h-20 navbar   "
           >
             {/**navbar 1200px */}
             <div className=" w-full  lg:max-w-[1200px]  mx-auto ">
@@ -69,7 +69,7 @@ const Navbar2 = () => {
                 <div className="menu  menu-horizontal">
                   {/* Navbar menu content here */}
 
-                  <div className="flex  gap-10 justify-center items-center  ">
+                  {/* <div className="flex  gap-10 justify-center items-center  ">
                     <a
                       className="text-lg text-[#06283D]   font-semibold"
                       href="#home"
@@ -100,7 +100,7 @@ const Navbar2 = () => {
                     >
                       CONTACT
                     </a>
-                  </div>
+                  </div> */}
                   {/** user name and profile would be here  */}
 
                   <div className="flex gap-3 justify-center items-center  "></div>

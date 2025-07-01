@@ -38,6 +38,9 @@ export const Navbar = () => {
             className="btn btn-ghost lg:hidden"
           ></div>
         </div>
+        {/* start */}
+        <p>hello</p>
+        {/* end*/}
         <p className="btn btn-ghost text-2xl">Ecobazar</p>
       </div>
       <div className="navbar-center hidden lg:flex">
