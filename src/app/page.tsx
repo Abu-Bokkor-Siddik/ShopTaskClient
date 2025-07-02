@@ -133,7 +133,6 @@ export default function Home() {
               <Card />
               <Card />
             </div>
-
             {/* end */}
             {/* pagination  */}
             <div className="lg:w-full w-96">
