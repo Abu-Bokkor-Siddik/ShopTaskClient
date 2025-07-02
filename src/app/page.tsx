@@ -121,7 +121,6 @@ export default function Home() {
                 40{" "}
               </div>
             </div>
-
             {/* start */}
             <div className="grid max grid-cols-1 lg:grid-cols-3 justify-center max-w-[900px] items-center mx-12 gap-8">
               <Card />
