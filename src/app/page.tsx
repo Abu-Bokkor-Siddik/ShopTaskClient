@@ -140,7 +140,6 @@ export default function Home() {
               <Pagination />
             </div>
             {/* <Learn></Learn> */}
-            {/* <Productes></Productes> */}
           </div>
         </div>
       </div>
