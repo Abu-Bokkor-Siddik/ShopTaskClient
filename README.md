@@ -1,53 +1,38 @@
-# Next.js & HeroUI Template
+# Project Name
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
+A brief description of your project goes here. For example:
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
+> This is a full-stack e-commerce website built with React, Node.js, MongoDB, and Tailwind CSS. Users can browse products, add them to cart, and make purchases securely.
 
-## Technologies Used
+---
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [HeroUI v2](https://heroui.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+## 🚀 Features
 
-## How to Use
+- User Authentication (Login/Register)
+- Product Listings
+- Product Search and Filter
+- Shopping Cart
+- Secure Checkout
+- Admin Dashboard (Product & Order Management)
 
-### Use the template with create-next-app
+---
 
-To create a new project based on this template using `create-next-app`, run the following command:
+## 🛠️ Tech Stack
+
+- Frontend: React.js, Tailwind CSS
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Auth: JWT
+- Hosting: Vercel / Render / Netlify (Specify yours)
+
+---
+
+## 📦 Installation
+
+Clone the project and install dependencies:
 
 ```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
-```
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
+git clone https://github.com/yourusername/yourproject.git
+cd yourproject
 npm install
 ```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).
