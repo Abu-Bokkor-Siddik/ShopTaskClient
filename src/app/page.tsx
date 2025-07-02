@@ -87,9 +87,6 @@ export default function Home() {
               <FourSection />
               <OfferCard />
 
-              {/* 
-               AllInOneside.jsx
-             */}
               {/* <AllInOneside></AllInOneside> */}
               <p className="text-2xl hidden lg:block  py-4 mx-10 ">
                 Sales Products
