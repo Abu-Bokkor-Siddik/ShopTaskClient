@@ -94,7 +94,7 @@ export const Navbar = () => {
           </div>
         </div>
         {/* end*/}
-        <p className="btn btn-ghost text-2xl">Ecobazar</p>
+        <p className="btn btn-ghost text-2xl lg:mr-72">Ecobazar</p>
       </div>
       <div className="navbar-center hidden lg:flex">
         <Search></Search>{" "}

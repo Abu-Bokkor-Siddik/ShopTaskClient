@@ -75,8 +75,8 @@ export default function Home() {
         <div className=" pt-7 flex w-auto h-40 mx-8 container">
           <div>
             {/* st */}
-            <div className=" w-[350px]   h-full">
-              <button className=" btn btn-success ml-28 px-7 flex justify-center items-center gap-2 rounded-2xl  mb-6">
+            <div className=" w-[350px] hidden lg:block    h-full">
+              <button className="  btn btn-success ml-28 px-7 flex justify-center items-center gap-2 rounded-2xl  mb-6">
                 Filter <CiFilter />
               </button>
 
@@ -91,17 +91,19 @@ export default function Home() {
                AllInOneside.jsx
              */}
               {/* <AllInOneside></AllInOneside> */}
-              <p className="text-2xl py-4 mx-10 ">Sales Products</p>
-              <div className="flex flex-col gap-3">
+              <p className="text-2xl hidden lg:block  py-4 mx-10 ">
+                Sales Products
+              </p>
+              <div className="flex hidden lg:block  flex-col gap-3">
                 <SaleCard />
                 <SaleCard />
                 <SaleCard />
               </div>
             </div>
           </div>
-          <div className="h-[1400px] hidden lg:block min-w-[1205px] bg-slate-50 ">
+          <div className=" max-w-96lg:h-[1400px]   lg:block lg:min-w-[1205px] bg-slate-50 ">
             <div className="flex justify-between  items-center  ">
-              <div className="flex my-5  max-w-[1200px] justify-between items-center ">
+              <div className="flex my-5   max-w-[1200px] justify-between items-center ">
                 <h1>Sort by:</h1>
                 <select
                   className="select btn-sm select-bordered w-28 text-black ml-3"
