@@ -100,6 +100,7 @@ export const Navbar = () => {
         <Search></Search>{" "}
         <button className="btn ml-4 btn-success ">Search</button>
       </div>
+
       <div className="navbar-end">
         <div className="flex justify-center items-center gap-3">
           <FaRegHeart className="h-6 w-6" />
