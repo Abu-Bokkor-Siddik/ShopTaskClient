@@ -1,5 +1,4 @@
 import { Kbd } from "@heroui/kbd";
-
 import { Input } from "@heroui/input";
 import { SearchIcon, Logo } from "@/src/components/icons";
 import Search from "./search";
