@@ -1,6 +1,6 @@
 import { Kbd } from "@heroui/kbd";
 import { Input } from "@heroui/input";
-import { SearchIcon, Logo } from "@/src/components/icons";
+import { SearchIcon } from "@/src/components/icons";
 import Search from "./search";
 import { FaRegHeart } from "react-icons/fa";
 import { MdOutlineShoppingBag } from "react-icons/md";
