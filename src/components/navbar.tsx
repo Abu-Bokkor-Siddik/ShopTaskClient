@@ -61,7 +61,7 @@ export const Navbar = () => {
             ></label>
             <ul className="menu  bg-base-200 text-base-content h-full w-80 p-4">
               {/* Sidebar content here */}
-              <div className="flex flex-col gap-2">
+              <div className="flex lg:hidden flex-col gap-2">
                 {/* <a
                   className="text-base text-[#06283D]   font-bold"
                   href="#home"
