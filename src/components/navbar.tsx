@@ -4,6 +4,11 @@ import { SearchIcon } from "@/src/components/icons";
 import Search from "./search";
 import { FaRegHeart } from "react-icons/fa";
 import { MdOutlineShoppingBag } from "react-icons/md";
+import BasicAccordion from "./modules/home/Accordion";
+import TwoSection from "./modules/home/SiteT/TwoSection";
+import ThreeSection from "./modules/home/SiteT/ThreeSection";
+import FourSection from "./modules/home/SiteT/FourSection";
+import OfferCard from "./modules/home/SiteT/OfferCard";
 export const Navbar = () => {
   const searchInput = (
     <Input
@@ -87,6 +92,12 @@ export const Navbar = () => {
                 >
                   CONTACT
                 </a> */}
+                {/* here  */}
+                <BasicAccordion />
+                <TwoSection />
+                <ThreeSection />
+                <FourSection />
+                <OfferCard />
               </div>
             </ul>
           </div>
