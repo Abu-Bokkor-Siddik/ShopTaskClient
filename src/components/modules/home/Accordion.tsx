@@ -46,14 +46,14 @@ export default function BasicAccordion() {
     },
   ];
   return (
-    <div className=" h-auto max-w-[330px] rounded-t-lg bg-zinc-400 p-3 ">
+    <div className=" h-auto w-72 lg:max-w-[330px] rounded-t-lg bg-zinc-400 p-3 ">
       {dataArr.map((PerAccordion, idx) => (
         <div key={idx} className="">
           <button
             onClick={() => toggle(idx)}
-            className="flex h-full w-auto items-center justify-between font-medium text-white outline-none"
+            className="flex h-full lg:w-auto items-center justify-between font-medium text-white outline-none"
           >
-            <span className="text-xl ml-28">{PerAccordion.title}</span>
+            <span className="text-xl lg:ml-28">{PerAccordion.title}</span>
             <span className="rounded-full p-2">
               {isOpen === idx ? (
                 <GoChevronUp className="h-10 w-9" />
@@ -94,7 +94,7 @@ export default function BasicAccordion() {
               <RadioButton></RadioButton>
               <h1 className="text-white">Bread</h1>
             </div>
-          <hr />
+            <hr />
           </div>
         </div>
       ))}
