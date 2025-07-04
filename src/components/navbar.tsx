@@ -57,7 +57,7 @@ export const Navbar = () => {
             <ul className="menu  bg-base-200 text-base-content h-full w-80 p-4">
               {/* Sidebar content here */}
               <div className="flex flex-col gap-2">
-                <a
+                {/* <a
                   className="text-base text-[#06283D]   font-bold"
                   href="#home"
                 >
@@ -86,7 +86,7 @@ export const Navbar = () => {
                   href="#contact"
                 >
                   CONTACT
-                </a>
+                </a> */}
               </div>
             </ul>
           </div>
