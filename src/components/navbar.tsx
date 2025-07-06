@@ -62,36 +62,6 @@ export const Navbar = () => {
             <ul className="menu  bg-base-200 text-base-content h-full w-80 p-4">
               {/* Sidebar content here */}
               <div className="flex lg:hidden flex-col gap-2">
-                {/* <a
-                  className="text-base text-[#06283D]   font-bold"
-                  href="#home"
-                >
-                  Category
-                </a>
-                <a
-                  className="text-base text-[#06283D]  font-bold"
-                  href="#about"
-                >
-                  Range
-                </a>
-                <a
-                  className="text-base text-[#06283D]   font-bold"
-                  href="#skill"
-                >
-                  Rating
-                </a>
-                <a
-                  className="text-base text-[#06283D]  font-bold"
-                  href="#project"
-                >
-                  Tags
-                </a>
-                <a
-                  className="text-base text-[#06283D]  font-bold"
-                  href="#contact"
-                >
-                  CONTACT
-                </a> */}
                 {/* here  */}
                 <BasicAccordion />
                 <TwoSection />
