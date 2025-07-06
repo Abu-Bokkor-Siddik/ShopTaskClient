@@ -18,7 +18,7 @@ export default function FourSection() {
   // value
 
   return (
-    <div className=" h-auto max-w-[330px]  bg-zinc-400 p-3 ">
+    <div className=" h-auto w-72 lg:w-[330px]  bg-zinc-400 p-3 ">
       {dataArr.map((PerAccordion, idx) => (
         <div key={idx} className="">
           <button
