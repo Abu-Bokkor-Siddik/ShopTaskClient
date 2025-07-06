@@ -57,9 +57,10 @@ export const Navbar = () => {
             <label
               htmlFor="my-drawer"
               aria-label="close sidebar"
-              className="drawer-overlay"
+              className="drawer-overlay "
             ></label>
-            <ul className="menu  bg-base-200 text-base-content h-full w-80 p-4">
+            {/* here menu box */}
+            <ul className="menu  min-h-[1200px] bg-base-200 text-base-content h-full w-80 p-4">
               {/* Sidebar content here */}
               <div className="flex lg:hidden flex-col gap-2">
                 {/* here  */}
