@@ -26,14 +26,14 @@ export default function TwoSection() {
     if (value > 0) setValue(value - 1);
   };
   return (
-    <div className=" h-auto w-72 lg:max-w-[330px]  bg-zinc-400 p-3 ">
+    <div className=" h-auto w-72 w-auto bg-zinc-400 p-3 ">
       {dataArr.map((PerAccordion, idx) => (
         <div key={idx} className="">
           <button
             onClick={() => toggle(idx)}
             className="flex h-full w-full items-center justify-between font-medium text-white outline-none"
           >
-            <span className="text-xl ml-14 lg:ml-28">{PerAccordion.title}</span>
+            <span className="text-xl ml-14 ">{PerAccordion.title}</span>
             <span className="rounded-full p-2">
               {isOpen === idx ? (
                 <GoChevronUp className="h-10 w-9" />
