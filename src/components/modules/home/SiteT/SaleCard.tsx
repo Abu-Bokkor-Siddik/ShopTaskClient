@@ -1,6 +1,5 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
-
 const SaleCard = () => {
   return (
     <div className="card bg-neutral text-neutral-content h-36 w-72">
