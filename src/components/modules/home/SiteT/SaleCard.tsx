@@ -7,7 +7,6 @@ const SaleCard = () => {
     <div className="card bg-neutral text-neutral-content h-36 w-72">
       <div className="card-body items-center text-center">
         <div className="flex gap-6 items-center">
-          
           <img
             className=" rounded-md  h-20 w-20 "
             src="https://i.ibb.co/j8mhHQ6/download-2.jpg"
