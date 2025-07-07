@@ -4,7 +4,6 @@ import { useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { GoChevronDown, GoChevronUp } from "react-icons/go";
 import Rating from "./Rating";
-
 export default function ThreeSection() {
   const [isOpen, setIsOpen] = useState(null);
   const dataArr = [
