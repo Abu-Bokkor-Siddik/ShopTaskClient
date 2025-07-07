@@ -1,7 +1,5 @@
 "use client";
-
 import { useState } from "react";
-
 import { GoChevronDown, GoChevronUp } from "react-icons/go";
 import Rating from "./Rating";
 export default function ThreeSection() {
