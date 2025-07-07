@@ -1,5 +1,4 @@
 import React from "react";
-
 const OfferCard = () => {
   return (
     <div className="card  bg-base-100  w-72 lg:w-80 h-72 lg:h-80 shadow-xl">
