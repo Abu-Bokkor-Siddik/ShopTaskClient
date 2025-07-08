@@ -1,13 +1,10 @@
-
-
 const landing = () => {
   return (
     <div>
       {/* here loading  */}
-      <h1>loading</h1>
-
+      <h1>loading hello</h1>
     </div>
-  )
-}
+  );
+};
 
-export default landing
+export default landing;
