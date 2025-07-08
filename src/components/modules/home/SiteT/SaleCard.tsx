@@ -10,6 +10,7 @@ const SaleCard = () => {
             src="https://i.ibb.co/j8mhHQ6/download-2.jpg"
             alt="product"
           />
+
           <div>
             <h1>products name </h1>
             <p className="mb-2">300$</p>
