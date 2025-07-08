@@ -45,6 +45,7 @@ export default function BasicAccordion() {
       text: "",
     },
   ];
+
   return (
     <div className=" h-auto w-72 lg:w-[330px] rounded-t-lg bg-zinc-400 p-3 ">
       {dataArr.map((PerAccordion, idx) => (
