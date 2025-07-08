@@ -23,7 +23,7 @@ const Productes = async () => {
           <li key={product.id} className="border p-4 my-2">
             <h2>{product.title}</h2>
             <p>{product.description}</p>
-            <p>৳ {product.price}</p>
+            <p>{product.price}</p>
           </li>
         ))}
       </ul>
