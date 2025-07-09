@@ -9,6 +9,7 @@ import TwoSection from "./modules/home/SiteT/TwoSection";
 import ThreeSection from "./modules/home/SiteT/ThreeSection";
 import FourSection from "./modules/home/SiteT/FourSection";
 import OfferCard from "./modules/home/SiteT/OfferCard";
+import SaleCard from "./modules/home/SiteT/SaleCard";
 export const Navbar = () => {
   const searchInput = (
     <Input
@@ -69,6 +70,7 @@ export const Navbar = () => {
                 <ThreeSection />
                 <FourSection />
                 <OfferCard />
+                <SaleCard></SaleCard>
               </div>
             </ul>
           </div>
