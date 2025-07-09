@@ -2,7 +2,7 @@ import React from "react";
 import { FaStar } from "react-icons/fa";
 const SaleCard = () => {
   return (
-    <div className="card bg-neutral text-neutral-content h-36 w-72">
+    <div className="card my-5 bg-neutral text-neutral-content h-36 w-72">
       <div className="card-body items-center text-center">
         <div className="flex gap-6 items-center">
           <img
