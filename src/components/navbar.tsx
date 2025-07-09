@@ -61,7 +61,7 @@ export const Navbar = () => {
               className="drawer-overlay "
             ></label>
             {/* here menu box */}
-            <ul className="menu  min-h-[1200px] bg-base-200 text-base-content h-full w-80 p-4">
+            <ul className="menu  min-h-[1400px] bg-base-200 text-base-content h-full w-80 p-4">
               {/* Sidebar content here */}
               <div className="flex lg:hidden flex-col gap-2">
                 {/* here  */}
