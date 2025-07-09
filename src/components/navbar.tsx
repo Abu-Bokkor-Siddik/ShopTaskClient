@@ -70,7 +70,7 @@ export const Navbar = () => {
                 <ThreeSection />
                 <FourSection />
                 <OfferCard />
-                <SaleCard></SaleCard>
+                <SaleCard />
               </div>
             </ul>
           </div>
