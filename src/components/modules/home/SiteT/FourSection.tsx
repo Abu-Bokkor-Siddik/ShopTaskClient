@@ -65,7 +65,7 @@ export default function FourSection() {
                 Success
               </button>
               <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
-                Success
+                Succes
               </button>
             </div>
           </div>
