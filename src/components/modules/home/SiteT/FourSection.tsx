@@ -44,7 +44,7 @@ export default function FourSection() {
                 Fresh Foods
               </button>
               <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
-                Success
+                Vegetable
               </button>
               <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
                 Success
