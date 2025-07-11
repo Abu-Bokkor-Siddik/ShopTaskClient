@@ -61,10 +61,6 @@ export default function FourSection() {
               <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
                 Bread
               </button>
-
-              <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
-                Success
-              </button>
             </div>
           </div>
         </div>
