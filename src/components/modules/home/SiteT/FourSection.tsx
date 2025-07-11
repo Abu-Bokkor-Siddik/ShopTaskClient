@@ -50,7 +50,7 @@ export default function FourSection() {
                 Cooking
               </button>
               <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
-                Success
+                Snacks
               </button>
               <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
                 Success
