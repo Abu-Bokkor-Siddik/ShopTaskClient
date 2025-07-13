@@ -41,7 +41,7 @@ export default function FourSection() {
             {/* st call another component */}
             <div className="grid grid-cols-3 gap-2">
               <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
-                Fresh Foods
+                Foods
               </button>
               <button className="btn btn-ghost btn-sm rounded-full btn-outline ">
                 Vegetable
