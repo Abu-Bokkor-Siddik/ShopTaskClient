@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Shope = () => {
-  return (
-    <div>
-      shope
-    </div>
-  )
-}
+  return <div>shope page here</div>;
+};
 
-export default Shope
+export default Shope;
