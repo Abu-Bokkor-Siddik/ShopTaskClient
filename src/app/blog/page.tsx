@@ -4,7 +4,7 @@ export default function BlogPage() {
   return (
     <div>
       <h1 className={title()}>Blog page</h1>
-      <div>hello blog</div>
+      <div>Blog page </div>
     </div>
   );
 }
