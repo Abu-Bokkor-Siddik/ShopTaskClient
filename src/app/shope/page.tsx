@@ -1,7 +1,7 @@
 import React from "react";
 
 const Shope = () => {
-  return <div>shope page here</div>;
+  return <div>Products details page here</div>;
 };
 
 export default Shope;
