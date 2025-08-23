@@ -65,7 +65,7 @@ function AllInOneside() {
           </div>
         </div>
         <div className="mb-6">
-          <h3 className="font-bold mb-2">Popular Tag</h3>
+          <h3 className="font-bold mb-2">Popular Tag here</h3>
           <div className="flex flex-wrap gap-2">
             <span className="bg-green-100 text-green-600 px-2 py-1 rounded text-xs">
               Healthy
