@@ -49,11 +49,15 @@ export default function Home() {
               <IoIosArrowDown />
             </div>
             <div className=" flex items-center gap-1 justify-center">
-              <button>About us</button>
+              <Link href="/about">
+                <button>About us</button>
+              </Link>
               <IoIosArrowDown />
             </div>
             <div className=" flex items-center gap-1 justify-center">
-              <button>Contact us</button>
+              <Link href="/contact">
+                <button>Contact Us</button>
+              </Link>
               <IoIosArrowDown />
             </div>
           </div>
