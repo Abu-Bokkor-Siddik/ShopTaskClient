@@ -43,7 +43,9 @@ export default function Home() {
               <IoIosArrowDown />
             </div>
             <div className=" flex items-center gap-1 justify-center">
-              <button>Blog</button>
+              <Link href="/blog">
+                <button>Blog</button>
+              </Link>
               <IoIosArrowDown />
             </div>
             <div className=" flex items-center gap-1 justify-center">
