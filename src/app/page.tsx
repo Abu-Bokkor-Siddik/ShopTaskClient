@@ -15,6 +15,7 @@ import FourSection from "../components/modules/home/SiteT/FourSection";
 import OfferCard from "../components/modules/home/SiteT/OfferCard";
 import SaleCard from "../components/modules/home/SiteT/SaleCard";
 import Pagination from "../components/modules/home/SiteT/Pagination";
+import Link from "next/link";
 
 export default function Home() {
   //for test
@@ -25,12 +26,16 @@ export default function Home() {
         <div className="w-full   h-12 flex justify-between items-center container  mx-5 border p-2">
           <div className="flex  items-center gap-8">
             <div className=" flex   items-center gap-1 justify-center">
-              <button>Home</button>
+              <Link href="/">
+                <button>Home</button>
+              </Link>
 
               <IoIosArrowDown />
             </div>
             <div className=" flex items-center gap-1 justify-center">
-              <button>Shop</button>
+              <Link href="/shope">
+                <button>Shop</button>
+              </Link>
               <IoIosArrowDown />
             </div>
             <div className=" flex items-center gap-1 justify-center">
